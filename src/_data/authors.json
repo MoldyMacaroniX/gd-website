@@ -13,10 +13,13 @@
 	},
 	{
 		"key":"esmik",
-		"name":"Esmik",
+		"name":"EsmiK",
+		"bio":"I'm a Czech GD YouTuber, artist, editor and pretty much mediocre at everything!",
 		"photo":"https://yt3.ggpht.com/s5TCwDCEl3seKisfyTRk0EqU5hoEn6Qc1T970GSqwE5TO-tlc3N2-zGbN9cSv1A4cRpJ-j7G",
-		"youtube":"matmart",
-		"twitter":"matmartm"
+		"youtube":"UCc-MJ1ijeGtfFdMwRdSGlqw",
+		"twitter":"Esmik15",
+		"discord":"ZUcF8UvUgM",
+		"gdbrowser":"esmik64"
 	},
 	{
 		"key":"cob",
@@ -28,17 +31,6 @@
 		"twitter":"gdcob2",
 		"discord":"bZcjgYUqHB",
 		"gdbrowser":"gdcob"
-	}
-	,
-	{
-		"key":"tride",
-		"name":"Tride",
-		"bio":"A loving father of none.",
-		"photo":"https://yt3.ggpht.com/tBsA3U91wEOC7RC6pUHOORv6X_ei98o64CKf7FB-KpCkv62FJeIzWrjwls4NxNAdkSrPjRKQOiY=s900-c-k-c0x00ffffff-no-rj",
-		"youtube":"moldymacaronix",
-		"twitter":"TriDeapthBear",
-		"gdbrowser":"CreatorMoldy",
-		"verified":"true"
 	},
 	{
 		"key":"omegafalcon",
