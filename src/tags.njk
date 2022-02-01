@@ -1,0 +1,15 @@
+---
+layout: layouts/main.njk
+title: Categories
+permalink: "categories/index.html"
+---
+
+<h1 class="title" style="margin-bottom: 20px;">All Categories</h1>
+<div class="grid-3">
+{% for name, length in collections.tagList %}
+<a href="{{ '/categories/' | url }}{{ name }}" class="tag">
+    {{ name | capitalize }}
+    <span class="tag-number">{{ length }}</span>
+</a>
+{% endfor %}
+</div>

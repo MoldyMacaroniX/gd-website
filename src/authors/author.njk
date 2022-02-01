@@ -1,0 +1,77 @@
+---
+layout: layouts/main.njk
+eleventyExcludeFromCollections: true
+
+pagination:
+   data: authors
+   size: 1
+   alias: author
+permalink: "/authors/{{author.key}}/"
+eleventyComputed:
+   title: "{{author.name}}"
+---
+
+{% set featured = collections[ "featured" ] | reverse | getAuthorPosts(author.key) %}
+{% set all = collections.posts | getAuthorPosts(author.key) %}
+
+<h1 class="title" style="margin-bottom: 20px;">{{ author.name }}</h1>
+
+<div class="author author-big">
+   <div class="cols">
+      <div class="author-img">
+            <a href="/authors/{{ author.key }}/"><img src="{{ author.photo }}" alt="{{ author.name }}"></a>
+      </div>
+      <div class="col">
+            <span class="name"><a href="/authors/{{ author.key }}/">{{ author.name }}</a> {% if author.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if author.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ author.twitter }}" class="follow">Follow</a></span>{% endif %}
+            {% if author.bio %}<span class="print">{{ author.bio }}</span>{% endif %}
+            <span class="author-links">
+               {% if author.youtube %}<a href="https://www.youtube.com/c/{{ author.youtube }}" class="ri-youtube-fill" data-tooltip="YouTube" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+               {% if author.twitch %}<a href="https://www.twitch.tv/{{ author.twitch }}" class="ri-twitch-fill" data-tooltip="Twitch" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+               {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}" class="ri-twitter-fill" data-tooltip="Twitter" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+               {% if author.discord %}<a href="https://discord.gg/{{ author.discord }}" class="ri-discord-fill" data-tooltip="Discord" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+               {% if author.gdbrowser %}<a href="https://gdbrowser.com/u/{{ author.gdbrowser }}" class="ri-global-fill" data-tooltip="GDBrowser" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+               {# <span style="display: flex; align-self: center; color: var(--txt-light);">· <i class="ri-pencil-fill" style="color: var(--primary); display: flex; align-self: center; margin: 0 5px;"></i> <!--<span id="points" style="color: var(--txt);">Loading...</span>--><span style="color: var(--txt);">{{ all | length }}</span></span> #}
+            </span>
+      </div>
+   </div>
+</div>
+
+<div class="author-score">
+   <div class="cols">
+      <div class="col">
+         <span class="author-score-title">Published Posts</span>
+         <span class="author-score-value">{{ all.length }}</span>
+      </div>
+      <div class="col">
+         <span class="author-score-title">Featured Posts</span>
+         <span class="author-score-value">{{ featured.length }}</span>
+      </div>
+      <div class="col">
+         <span class="author-score-title">Author Score</span>
+         <span class="author-score-value" id="points">Loading...</span>
+      </div>
+   </div>
+</div>
+
+<h1 class="title" style="margin-bottom: 20px;">Latest Posts</h1>
+
+{% set post = collections.posts | getAuthorPosts(author.key) | head(3) %}
+<div class="grid-3">
+{% for post in post %}
+{% include "partials/post-list.njk" %}
+{% endfor %}
+</div>
+{% if all.length < 1 %}
+<div class="article">
+   <div class="alert" style="margin-bottom: 0px;">
+   <p>This author has no articles.</p>
+   </div>
+</div>
+{% endif %}
+
+<script>
+   var featuredPosts = {{ featured.length }};
+   var allPosts = {{ all.length }};
+   var points = (featuredPosts * 2) + (allPosts * 1);
+   document.getElementById("points").innerHTML = points;
+</script>

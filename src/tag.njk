@@ -1,0 +1,20 @@
+---
+layout: layouts/main.njk
+eleventyExcludeFromCollections: true
+pagination:
+    data: collections.pagedPostsByTag
+    size: 1
+    alias: paged
+permalink: "categories/{{ paged.tagName }}/{% if paged.number > 1 %}{{ paged.number }}/{% endif %}index.html"
+eleventyComputed:
+    title: "{{ paged.tagName | capitalize }}"
+---
+
+<h1 class="title" style="margin-bottom: 20px;">{{ paged.tagName | capitalize }}</h1>
+<div class="grid-3">
+    {% include "partials/post-grid.njk" %}
+</div>
+
+{% if collections.tagList[paged.tagName] > site.paginate %}
+{% include "partials/paginator.njk" %}
+{% endif %}

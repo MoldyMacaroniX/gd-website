@@ -1,0 +1,54 @@
+---
+layout: layouts/main.njk
+---
+{% if alert %}
+<div class="article">
+    <div class="alert">
+    <p>{{ alert }}</p>
+    </div>
+</div>
+{% endif %}
+<div class="article">
+    {% if post %}<div class="post">{% endif %}
+
+{{ content | safe }}
+
+    {% if post %}</div>{% endif %}
+
+<hr class="endpost" style="margin-bottom: 15px; margin-top: 55px;">
+</div>
+{% if post %}
+{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.posts | getNextCollectionItem(page) %}
+<div class="suggested-posts">
+    {# <hr class="endpost"> #}
+
+    <h1 class="title">Up Next</h1>
+    <div class="grid-2">
+        {% if previousPost %}
+        <div class="post-preview post-preview-wrap">
+            <a href="{{ previousPost.url }}" class="post-preview-wrap-img"><img src="{{ previousPost.data.image }}" alt="{{ previousPost.data.title }}" loading="lazy"></a>
+            <div class="post-preview-wrap-content">
+                <h1><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></h1>
+                {% for tag in  previousPost.data.tags %}
+                    <a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+                <p class="meta">{% if previousPost.data.author %}{% set myAuthor = authors | getAuthor(previousPost.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %} · {% endif %}{{ previousPost.data.page.date | readableDate}}</p>
+            </div>
+        </div>
+        {% endif %}
+        {% if nextPost %}
+        <div class="post-preview post-preview-wrap">
+            <a href="{{ nextPost.url }}" class="post-preview-wrap-img"><img src="{{ nextPost.data.image }}" alt="{{ nextPost.data.title }}" loading="lazy"></a>
+            <div class="post-preview-wrap-content">
+                <h1><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></h1>
+                {% for tag in  nextPost.data.tags %}
+                    <a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+                <p class="meta">{% if nextPost.data.author %}{% set myAuthor = authors | getAuthor(nextPost.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %} · {% endif %}{{ nextPost.data.page.date | readableDate}}</p>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

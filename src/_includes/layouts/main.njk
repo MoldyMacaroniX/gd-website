@@ -1,0 +1,110 @@
+---
+layout: layouts/base.njk
+---
+{% if homepage %}
+<!-- FEATURED -->
+<div class="container featured">
+    <div class="cols">
+        <div class="col">
+            {% include "partials/tag-main.njk" %}
+        </div>
+        <div class="col grid-2 featured-trim">
+            {% include "partials/tag-grid.njk" %}
+        </div>
+    </div>
+</div>
+<!-- FEATURED -->
+
+<!-- ABOUT -->
+<div class="container">
+    <div class="popup" style="padding: 0;">
+        <div class="cols about" style="gap: 0px;">
+            <div class="col about-print">
+                <h1>
+                    The biggest rythm game is bigger than you think.
+                </h1>
+                <p>
+                    What started as a niche mobile platformer has since evolved into one of the biggest indie game communities ever. Most turn away from the game after the first few official levels, but there is an entire online community that many never get to see.
+                </p>
+                <a href="/about/" class="button button-big">More Details</a>
+            </div>
+            <div class="col about-img">
+                <div class="about-img-content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END ABOUT -->
+{% endif %}
+
+{% if article %}
+<!-- POST HEADER -->
+<div class="container">
+    <div class="cols post-header">
+        <div class="col">
+            <h1>
+                {{ title }}
+            </h1>
+
+            {% if author %}
+            {% set myAuthor = authors | getAuthor(author) %}
+            <div class="grid-2">
+                {% for myAuthor in myAuthor %}
+                {# <a href="/authors/{{ myAuthor.key }}/">{{ myAuthor.name }}</a> #}
+                <div class="author">
+                    <div class="cols">
+                        <div class="author-img">
+                            <a href="/authors/{{ myAuthor.key }}/"><img src="{{ myAuthor.photo }}" alt="{{ myAuthor.name }}" loading="lazy"></a>
+                        </div>
+                        <div class="col">
+                            <span class="name"><a href="/authors/{{ myAuthor.key }}/">{{ myAuthor.name }}</a> {% if myAuthor.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if myAuthor.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ myAuthor.twitter }}" class="follow">Follow</a></span>{% endif %}
+                            {% if date %}<span class="print">{{ page.date | readableDate }}{% if tags %} · {% for tag in tags %}<a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a> {% endfor %}{% endif %}</span>{% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% elseif desc %}
+            <!--<div class="desc">
+                {{ desc }}
+            </div>-->
+            {% endif %}
+            
+
+        </div>
+        <div class="col post-header-img">
+            <img src="{{ image }}" alt="{{ title }}" loading="lazy">
+        </div>
+    </div>
+</div>
+<!-- END POST HEADER -->
+{% endif %}
+
+<!-- MAIN LAYOUT -->
+<div class="container main">
+    <div class="cols">
+        {% if post %}
+        <div class="postbar">
+            <div class="sticky">
+                <div class="post-socials">
+                    <span style="font-weight: bold;">Share</span>
+                    <a href="https://twitter.com/intent/tweet?text={{ title }}&url={{ site.url }}{{ page.url }}" class="ri-twitter-fill" target="_blank" rel="noopener"></a>
+                    <a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ title }}" class="ri-reddit-fill" target="_blank" rel="noopener"></a>
+                    <span class="item ri-links-fill" onclick='textToClipboard("{{ site.url }}{{ page.url }}");'></span>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        <div class="col" style="min-width: 0">
+            {{ content | safe }}
+        </div>
+        <div class="sidebar">
+            <div class="sticky">
+                <h1 class="title">Featured</h1>
+                {% include "partials/tag-list.njk" %}
+                <a href="/categories/featured/" class="button button-full button-big button-wide" style="margin-top: 10px; margin-bottom: 0;">View More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MAIN LAYOUT -->

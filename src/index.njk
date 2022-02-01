@@ -1,0 +1,14 @@
+---
+layout: layouts/main.njk
+homepage: true
+title: Home
+pagetitle: Soundbit — Geometry Dash Stories
+---
+
+<h1 class="title" style="margin-bottom: 20px;">Latest Posts</h1>
+<div class="grid-3">
+{% for post in collections.posts | head(9) %}
+{% include "partials/post-list.njk" %}
+{% endfor %}
+</div>
+<a href="/posts/2/" class="button button-full button-big button-wide" style="margin-bottom: 0;">Browse More Posts</a>

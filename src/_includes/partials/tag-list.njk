@@ -1,0 +1,9 @@
+{% for post in collections[ "featured" ] | reverse | head(4) %}
+<div class="post-preview">
+    <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
+    {# {% for tag in post.data.tags %}
+        <a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a>
+    {% endfor %} #}
+    <p class="meta">{% if post.data.author %}{% set myAuthor = authors | getAuthor(post.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %}· {% endif %}{{ post.data.page.date | readableDate}}</p>
+</div>
+{% endfor %}

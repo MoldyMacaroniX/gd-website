@@ -1,0 +1,11 @@
+{% for post in collections[ "featured" ] | reverse | head(1) %}
+<div class="post-preview post-preview-big">
+    {% if post.data.image %}<a href="{{ post.url | url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></a>{% endif %}
+    <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
+    {% for tag in post.data.tags %}
+        <a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
+    <p class="desc">{{ post.data.desc }}</p>
+    <p class="meta">{% if post.data.author %}{% set myAuthor = authors | getAuthor(post.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %}· {% endif %}{{ post.data.page.date | readableDate}}</p>
+</div>
+{% endfor %}

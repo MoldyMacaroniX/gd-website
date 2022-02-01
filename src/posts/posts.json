@@ -1,0 +1,5 @@
+{
+    "layout": "layouts/post.njk",
+    "article": "true",
+    "post": "true"
+}
