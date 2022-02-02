@@ -22,4 +22,4 @@ Also, over the past few months, RobTop has been quite quiet with news, besides t
 >
 > <cite>Vortrox</cite>
 
-Vortrox also mentions the fact that 2/22/2022 is the perfect two's day, featuring seven different two's in one day, which will probably be the record for millenniums! (Context: 2/22/2222 is on a Saturday.) Anyways, thanks for reading my theory, and remember, this is just a theory...A GEOMETRY DASH THEORY, thanks for reading...
+Vortrox also mentions the fact that 2/22/2022 is the perfect two's day, featuring seven different two's in one day, which will probably be the record for millenniums! (Context: 2/22/2222 is on a Saturday.) Anyway, thanks for reading my theory.

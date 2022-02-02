@@ -1,6 +1,6 @@
 ---
 title: "We Do Not Make The Rate Standards"
-desc: "This is the post description. It should only be a sentence or two long."
+desc: "Something as a community that we do not understand, is that we do not make the rate standards."
 image: https://i.ytimg.com/vi/-mCX9ogzs54/maxresdefault.jpg
 date: 2022-01-18
 tags:
@@ -11,7 +11,7 @@ alert: This article is based off an old video script from April 2020. Some opini
 
 Something as a community that we do not understand, is that we do not make the rate standards. It is solely up to RobTop as to what is rated or not, and we need to respect that.
 
-Too many people leave comments on levels, saying something like "I dont think this is feature worthy but its going to get featured anyway" or "This isnt rate worthy in my opinion, but it is still going to get rated"
+Too many people leave comments on levels, saying something like "I dont think this is feature worthy but its going to get featured anyway" or "This isn't rate worthy in my opinion, but it is still going to get rated"
 
 
 
@@ -29,7 +29,7 @@ If RobTop approaches an unrated level, we have no say in whether or not it is ra
 
 
 
-But the rate standards are not an opinion, at least not ours. A level does not need to be good by our standards to get rated. This isnt just the community making these assumptions, but also some in-game moderators. It is obvious that RobTop has low standards when compared to the mod team. There [have been levels sent by mods for star ratings or not even sent at all]() which have gotten epic rated.
+But the rate standards are not an opinion, at least not ours. A level does not need to be good by our standards to get rated. This isn't just the community making these assumptions, but also some in-game moderators. It is obvious that RobTop has low standards when compared to the mod team. There [have been levels sent by mods for star ratings or not even sent at all](https://gdbrowser.com/59659156) which have gotten epic rated.
 
 
 

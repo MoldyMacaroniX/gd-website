@@ -1,6 +1,6 @@
 ---
 title: How To Make A Featured Level in Geometry Dash
-desc: Geometry Dash 2.2 is taking so long mainly because of platformer mode, the arrow trigger, and versus mode.
+desc: If you've ever took a stab at the Geometry Dash level editor you've probably wondered how to go about making a featured level.
 image: https://preview.redd.it/s0yfgfh6lht01.png?auto=webp&s=79d55090a732fb4edb72799fd0ccf4529f83af48
 date: 2022-01-29
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "How To Import Pixel Art In Geometry Dash"
-desc: "This is the post description. It should only be a sentence or two long."
+desc: "Pixel art is relatively underdeveloped in Geometry Dash due to how tedious it is to make. Fortunately, there now exists tools to import pixel art into the game."
 image: https://i.ytimg.com/vi/P4mL4MeAivI/maxresdefault.jpg
 date: 2022-01-25
 tags:
@@ -16,7 +16,7 @@ Tracing art has lead to issues in the past regarding copyright. Never use extern
 
 # The Program
 
-The program that makes this possible is [Colon]()'s [Geometry Dash pixel art generator](https://github.com/GDColon/GD-Pixel-Art). This article will go over the following:
+The program that makes this possible is [Colon](https://gdbrowser.com/u/Colon)'s [Geometry Dash pixel art generator](https://github.com/GDColon/GD-Pixel-Art). This article will go over the following:
 
 * How to download the program
 * How the program works
@@ -55,7 +55,7 @@ Simply add the image file you want to import into the game to the "GD-Pixel-Art-
 
 # How to run the program
 
-First things first, this program requires **node.js**. Here is a [download tutorial]() to install it. Now with it installed, there are two methods to run the program.
+First things first, this program requires **node.js**. Here is a [download tutorial](https://phoenixnap.com/kb/install-node-js-npm-on-windows) to install it. Now with it installed, there are two methods to run the program.
 
 ## Method 1: Run `img.bat`
 
@@ -65,7 +65,7 @@ First things first, this program requires **node.js**. Here is a [download tutor
 
 ## Method 2: Run `img.js`
 
-1. Open the Windows command terminal (try searching "cmd") and navigate to the dirctory where the `img.js` file is located. If you are not familiar with the Windows command terminal, see [this tutorial]().
+1. Open the Windows command terminal (try searching "cmd") and navigate to the dirctory where the `img.js` file is located. If you are not familiar with the Windows command terminal, see [this tutorial](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10/).
 2. Type the command `npm i` to install the dependencies.
 3. Type the command `node img.js`.
 

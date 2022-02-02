@@ -1,6 +1,6 @@
 ---
 title: Geometry Dash 2.2 Sneak Peek 1:1 Recreation
-desc: "This is the post description. It should only be a sentence or two long."
+desc: "The Geometry Dash 2.2 sneak peek astonished everybody. Like what creators did in updates prior, this sneak peek has been remade at 1:1 scale."
 image: https://i.imgur.com/UMK9uL3.jpeg
 date: 2022-01-26
 tags:
@@ -10,7 +10,7 @@ author: moldymacaronix
 
 The Geometry Dash 2.2 sneak peek astonished everybody. While some are more fond of it than others, it is safe to say that it will revolutionize the game when it comes out with update 2.2. However, like what creators did in updates prior, they made countless remakes of the sneak peek — some better than others.
 
-Arguably the best of the remakes is [Sneak Peek Playable]() by [ShruGGie](), [Drren](), [Pandora](), and Nitanchik on the [GDPS Editor 2.2]() private server. RobTop himself even [commented on my video]() about it, saying...
+Arguably the best of the remakes is [Sneak Peek Playable](https://gdpseditor.gdbrowser.com/116051) by [ShruGGie](https://gdpseditor.gdbrowser.com/u/ShruGGie), [Drren](https://gdpseditor.gdbrowser.com/u/drren), [Pandora](https://gdpseditor.gdbrowser.com/u/pandora), and Nitanchik on the [GDPS Editor 2.2](https://gdpseditor.gdbrowser.com/) private server. RobTop himself even [commented on my video](https://youtu.be/97-3-NAA_ZM) about it, saying...
 
 > This is insane
 

@@ -1,6 +1,6 @@
 ---
 title: "I got a Featured Level in 3 Hours"
-desc: "This is the post description. It should only be a sentence or two long."
+desc: "Grinding creator points is something I have never been into. But nevertheless, I challenged myself to make a featured level in 3 hours."
 image: https://i.imgur.com/R7cajVs.jpeg
 date: 2022-01-29
 tags:
@@ -9,7 +9,7 @@ tags:
 author: moldymacaronix
 ---
 
-Grinding creator points is something I have never been into. I've always spent months on my levels in order to make them the best they can be. However, [for a video](), I challenged myself to make a featured level in just three hours. As you can tell from the title of this article, I succeeded, and now I am going to share with you the things I learned while doing this challenge.
+Grinding creator points is something I have never been into. I've always spent months on my levels in order to make them the best they can be. However, [for a video](https://youtu.be/SkqI1RJP-k0), I challenged myself to make a featured level in just three hours. As you can tell from the title of this article, I succeeded, and now I am going to share with you the things I learned while doing this challenge.
 
 # Farming Creator Points
 
