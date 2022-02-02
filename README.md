@@ -2,6 +2,10 @@
 
 This is the source code for my Geometry Dash website project
 
+## Documentation
+
+For a documentation on how content is written and managed, see `example.com/handbook/` or `src > 
+
 ## 🛠️ Built With
 
 * Built using [Eleventy](https://example.com),

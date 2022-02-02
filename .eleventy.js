@@ -1,6 +1,7 @@
 module.exports = (config) => {
 
   config.addPassthroughCopy('assets'); // CSS, JS, etc.
+  config.addPassthroughCopy({'static':  '.'});
 
   config.setDataDeepMerge(true);
 

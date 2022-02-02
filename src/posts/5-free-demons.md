@@ -5,6 +5,7 @@ image: https://steamuserimages-a.akamaihd.net/ugc/110732988915356301/50767ED0B61
 date: 2022-01-29
 tags:
     - list
+    - featured
 author: cob
 ---
 
