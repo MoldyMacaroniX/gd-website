@@ -15,7 +15,7 @@ The standards for what we look for in articles are important, so [please give th
 
 <!-- Currently, we are only accepting submissions from a few selected individuals. However, we plan to open up submissions to more people in the future. -->
 
-You can submit an article through [our Discord server](). Share a link or text file of your article in the **#article-submissions** channel.
+You can submit an article through [our Discord server](https://discord.gg/SqZuGCpHMm). Share a link or text file of your article with a website Editor.
 
 # Editing Process
 
