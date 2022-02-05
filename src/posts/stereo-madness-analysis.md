@@ -21,7 +21,7 @@ In the second cube segment it immediately feels like an upgrade from the first, 
 
 An ingenious fake in that area is the segment with no jumps and just a four block wide structure preventing you from jumping while having nothing around for you to jump on or over. The jumps at 72% are some very good ones, being very climactic for nearing the end of the level. The second coin placement in the level is good. The players sense of finding paths where they wouldn't expect them to be and rewarding them for it is an incredible design decision. The heavy use of half block platforms in the leadup to the second ship segment also feels very climactic.
 
-The final segment is an great, having heavily built upon structures and a masterful coin route. Being the final segment, it gives the level very good closure with how well spaced everything is from each other while still being part of one core design.
+The final segment is great, having heavily built upon structures and a masterful coin route. Being the final segment, it gives the level very good closure with how well spaced everything is from each other while still being part of one core design.
 
 The third and final coin in Stereo Madness is my personal favorite, and from what I know, most other players like it as well. It tests your ship control and skill while also introducing a new gameplay concept.
 
