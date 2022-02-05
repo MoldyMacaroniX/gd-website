@@ -2,14 +2,14 @@
 
 This is the source code for my Geometry Dash website project
 
-## Documentation
+## 📗 Documentation
 
-For a documentation on how content is written and managed, see `example.com/handbook/` or `src > 
+For a documentation on how content is written and managed, see [dashword.net/handbook/](https://www.dashword.net/handbook/).
 
 ## 🛠️ Built With
 
-* Built using [Eleventy](https://example.com),
-* on top of [Vredeburg](https://example.com).
+* Built using [Eleventy](https://www.11ty.dev/),
+* on top of [Vredeburg](https://github.com/dafiulh/vredeburgm).
 
 ## 🏁 Getting Started
 
@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    npx eleventy --serve
    ```
-This will create an instance at `http://localhost:8080/`
+This will create an instance at [http://localhost:8080/](http://localhost:8080/).
 
 ## 📋 Features
 

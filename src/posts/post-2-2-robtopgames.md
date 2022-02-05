@@ -10,7 +10,7 @@ The Geometry Dash community has waited over 5 years for update 2.2, and many bla
 
 # Colon
 
-One of the best options — and the first that comes to mind — would be [GD Colon](https://www.youtube.com/c/GDColon). A popular YouTuber and streamer, Colon has time and time again showcased his programming knowledge and skills. His projects like a Google Sheet version of the in-game editor, a program that converts Minecraft worlds to the editor, and an online Geometry Dash browser.
+One of the best options — and the first that comes to mind — would be [GD Colon](https://www.youtube.com/c/GDColon). A popular YouTuber and streamer, Colon has time and time again showcased his programming knowledge and skills. His projects include a Google Sheet version of the in-game editor, a program that converts Minecraft worlds to the editor, and an online Geometry Dash browser.
 
 His [50 Simple Ideas For Geometry Dash](https://youtu.be/DVTb_vA91WY) video is a stunning example of the excelling quality-of-life ideas he can come up with. Some editor ideas even got into HJfod's popular BetterEdit mod. Colon also suggested some ways how the wait for 2.2 could have been shortened on his Twitter, such as setting a cutoff date for features to be added. While Colon has stated before that he does not wish to be a part of the in-game moderator team, a job with RobTop Games wouldn't be out of the question.
 
