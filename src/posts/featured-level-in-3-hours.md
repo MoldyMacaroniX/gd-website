@@ -43,4 +43,4 @@ I made a video documenting my journey in doing this challenge — feel free to c
 
 # Conclusion
 
-As someone who generally doesn't understand grinding creator points, doing this challenge was a unqiue experience and I recommend others in a similar boat as myself to give it a try as well.
+As someone who generally doesn't understand grinding creator points, doing this challenge was a unique experience and I recommend others in a similar boat as myself to give it a try as well.

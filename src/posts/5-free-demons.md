@@ -9,7 +9,7 @@ tags:
 author: cob
 ---
 
-Welcome to the "5 Free Demons NO ONE is talking about," list. In this list I'll showcase 5 extremely easy demons that you *hopefully* haven't heard of. This list is in no particular order. Let's begin!
+Welcome to the "5 Free Demons no one is talking about," list. In this list I'll showcase 5 extremely easy demons that you *hopefully* haven't heard of. This list is in no particular order. Let's begin!
 
 {% alert %}
 The author of this post asks not to copy this exact list for your own content (such as for YouTube videos) without permission.

@@ -7,6 +7,7 @@ tags:
     - guide
     - featured
 author: moldymacaronix
+# partnerGDCS: true
 ---
 
 If you've ever took a stab at the Geometry Dash level editor you've probably wondered how to go about making a featured level. Well, I have 11 of them. My goal with this article is to teach you everything I've learned about making featured levels and put you well on your way to getting one yourself. Let's dive right in!

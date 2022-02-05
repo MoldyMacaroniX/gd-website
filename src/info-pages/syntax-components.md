@@ -1,8 +1,7 @@
 ---
 title: Syntax and Components
-image: https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg
 permalink: /syntax-components/
-desc: How to post an article.
+desc: Reference sheet for all syntax and components that can be used in articles.
 ---
 
 Here is a reference sheet for all syntax and components that can be used in articles.

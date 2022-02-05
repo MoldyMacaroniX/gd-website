@@ -21,7 +21,7 @@ layout: layouts/base.njk
         <div class="cols about" style="gap: 0px;">
             <div class="col about-print">
                 <h1>
-                    The biggest rythm game is bigger than you think.
+                    This mobile game is bigger than you think.
                 </h1>
                 <p>
                     What started as a niche mobile platformer has since evolved into one of the biggest indie game communities ever. Most turn away from the game after the first few official levels, but there is an entire online community that many never get to see.
@@ -73,7 +73,7 @@ layout: layouts/base.njk
 
         </div>
         <div class="col post-header-img">
-            <img src="{{ image }}" alt="{{ title }}" loading="lazy">
+            <img src="{{ image or site.image }}" alt="{{ title }}" loading="lazy">
         </div>
     </div>
 </div>

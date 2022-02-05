@@ -1,7 +1,7 @@
 ---
 title: Content Handbook
 permalink: /handbook/
-desc: How to post an article.
+desc: How content on this website is written and maintained.
 ---
 
 Here is how content on this website is written and maintained.

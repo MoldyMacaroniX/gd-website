@@ -23,6 +23,10 @@ layout: layouts/main.njk
 <div class="suggested-posts">
     {# <hr class="endpost"> #}
 
+    {% if partnerGDCS %}
+    {% include "partials/gdcs/gdcs-panel.njk" %}
+    {% endif %}
+
     <h1 class="title">Up Next</h1>
     <div class="grid-2">
         {% if previousPost %}

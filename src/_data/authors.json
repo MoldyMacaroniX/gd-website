@@ -39,5 +39,32 @@
 		"youtube":"OmegaFalcon",
 		"twitter":"OmegaFalcon_",
 		"gdbrowser":"OmegaFalcon"
+	},
+	{
+		"key":"ryli",
+		"name":"Ryli",
+		"bio":"Hey! My name is Ryli, I'm a 16 year old trans girl from Canada. I'm a GD creator and an aspiring in-game moderator.",
+		"photo":"https://yt3.ggpht.com/ytc/AKedOLSiJtREXIl22h_HIif1xJWadekhzjhPRjO68ArbpA=s900-c-k-c0x00ffffff-no-rj",
+		"youtube":"Ryli06",
+		"twitch":"rily06",
+		"gdbrowser":"Ryli06"
+	},
+	{
+		"key":"mosquitogirl",
+		"name":"Mosquito Girl",
+		"bio":"I talk about words sometimes.",
+		"photo":"https://cdn.discordapp.com/attachments/933985129695694848/938963688835145748/unknown.png",
+		"youtube":"UC2zAF2O_LmmkpxBcWfhhz7g",
+		"twitter":"Mosquito__Girl",
+		"gdbrowser":"MosquitoGirl"
+	},
+	{
+		"key":"airplaneniner",
+		"name":"AirplaneNiner",
+		"bio":"An aviation enthusiast and a software programmer.",
+		"photo":"https://yt3.ggpht.com/yti/APfAmoFkAG2YFSdG4X8QUXVEc9CDSiqZ8wH8oPlJEgHTvg",
+		"youtube":"UC-hJIJWWxRn9ha-rhGtk7hA",
+		"discord":"MFP4CPVjC9",
+		"gdbrowser":"Airplaneguy9"
 	}
 ]

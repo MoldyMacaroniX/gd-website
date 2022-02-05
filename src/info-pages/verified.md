@@ -1,6 +1,5 @@
 ---
 title: Verified Badge
-image: https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg
 permalink: /verified/
 desc: How to get the verified badge.
 ---

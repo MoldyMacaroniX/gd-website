@@ -1,6 +1,5 @@
 ---
 title: How to post an article
-image: https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg
 permalink: /how-to-post-an-article/
 desc: How to post an article.
 ---
@@ -15,20 +14,24 @@ The standards for what we look for in articles are important, so [please give th
 
 <!-- Currently, we are only accepting submissions from a few selected individuals. However, we plan to open up submissions to more people in the future. -->
 
-You can submit an article through [our Discord server](https://discord.gg/SqZuGCpHMm). Share a link or text file of your article with a website Editor.
+<!-- You can submit an article through [our Discord server](https://discord.gg/SqZuGCpHMm). Share a link or text file of your article with a website Editor. -->
 
-# Editing Process
+You can submit a complete article draft through [this form](https://forms.gle/9gTYoM4JzjyUwUBg7). A complete article draft is a finished article where all that is left to do is get an editor to edit it. If we choose to move forward with your article, it will be edited and published. We are more likely to move forward with your article if it follows the author handbook closely.
 
-If we choose to move forward with your article, it will be reviewed and edited by our editors.
+We as editors understand that you put a lot of hard work into your article, so we will never entirely rewrite it. The most we will do is the following.
 
-# Posting
+* Fix grammar and spelling errors.
+* Rewrite confusing sentences.
+* Restructure article format (such as amount of paragraphs).
+* Fix misuses of article [syntax and components](/syntax-components/).
 
-Once both you and our editors agree on a final article, it will be published on the site! If this is your first article, you will need to provide some information so we can make a profile for you.
+If your article requires more than the above list, we likely will not be able to move forward with it.
 
-## Profile
+# Profile
 
-If you are publishing an article for the first time, we will need to make you a profile. You will need to give us the following information.
+If you are publishing an article for the first time, we will need to make you a profile. When filling the above linked form, you will need to give us the following information.
 
+* An author ID used in the URL to your profile. This **cannot** be changed.
 * The username that you want your article to be published under.
 * A link to your profile picture that will be displayed next to your username.
 * A short one sentence bio (optional).
@@ -38,7 +41,13 @@ If you are publishing an article for the first time, we will need to make you a 
 * Your Discord server code (optional).
 * Your in-game username (optional).
 
-Along with the list above, you will need to come up with a unique identifier that will be used in the link to your profile. This **cannot be changed,** so please choose wisely!
+# Editing Process
+
+If we choose to move forward with your article, it will be reviewed and edited by our editors.
+
+# Posting
+
+After your article is edited and approved, it will be published on the site!
 
 # Terms
 

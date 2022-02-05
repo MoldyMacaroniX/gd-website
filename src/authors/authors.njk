@@ -2,6 +2,7 @@
 layout: layouts/main.njk
 title: Authors
 permalink: "/authors/"
+desc: All website authors.
 ---
 
 <h1 class="title" style="margin-bottom: 20px;">All Authors</h1>
@@ -15,7 +16,7 @@ permalink: "/authors/"
       </div>
       <div class="col">
             <span class="name"><a href="/authors/{{ author.key }}/">{{ author.name }}</a> {% if author.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if author.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ author.twitter }}" class="follow">Follow</a></span>{% endif %}
-            {% if author.bio %}<span class="print">{{ author.bio }}</span>{% endif %}
+            {% if author.bio %}<span class="print truncate">{{ author.bio }}</span>{% endif %}
             <span class="author-links">
                {% if author.youtube %}<a href="https://www.youtube.com/c/{{ author.youtube }}" class="ri-youtube-fill" data-tooltip="YouTube" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
                {% if author.twitch %}<a href="https://www.twitch.tv/{{ author.twitch }}" class="ri-twitch-fill" data-tooltip="Twitch" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}

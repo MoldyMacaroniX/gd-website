@@ -21,7 +21,7 @@ These are broad and obvious points, so the real question is: what exactly makes 
 
 # Originality is key
 
-I know I said Limbo exceeds because of its originality, but I do believe this is often overlooked. Let's take a look at some of the other top extreme demons to come out recently.
+The effectiveness of originality is often overlooked. Let's take a look at some of the other top extreme demons to come out recently.
 
 * Sakupen Circles
 * Slaughterhouse
@@ -31,7 +31,7 @@ What do all of these have in common? Well, they are all remakes. No matter how g
 
 The only reason these levels have a little bit of hype is because they are top 1 extreme demons. But Limbo, on the other hand, is not only a top 1 extreme demon, but an original level that exceeds at aspects beyond just being hard.
 
-In fact, the score gimmick that symbolizes Limbo is original. While it is not the first level to use memory gameplay, it is the first major level in a long time to use it.
+In fact, the core gimmick that symbolizes Limbo is original. While it is not the first level to use memory gameplay, it is the first major level in a long time to use it.
 
 Given this, the [final part](https://youtu.be/8vc2YoLWM0c) in Limbo cannot go unnoticed. It is a new leap for memory gameplay, relying not only on long term memory, but short term memory. This alone is such an incredible finale to a level that it makes Limbo a level one cannot easily forget.
 

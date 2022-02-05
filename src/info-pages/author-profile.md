@@ -1,8 +1,7 @@
 ---
 title: Creating an Author Profile
-image: https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg
 permalink: /author-profile/
-desc: How to post an article.
+desc: All website author profiles are located in the authors.json file. All work with creating, deleting, and editing author profiles is done in this file.
 ---
 
 All website author profiles are located in the `authors.json` file. All work with creating, deleting, and editing author profiles is done in this file.

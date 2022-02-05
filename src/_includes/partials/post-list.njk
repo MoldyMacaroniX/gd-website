@@ -1,8 +1,12 @@
 <div class="post-preview">
     {% if post.data.image %}<a href="{{ post.url | url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></a>{% endif %}
     <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
+    {% if post.data.tags %}
     {% for tag in post.data.tags %}
         <a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
+    {% else %}
+    <div style="height: 10px;"></div>
+    {% endif %}
     <p class="meta">{% if post.data.author %}{% set myAuthor = authors | getAuthor(post.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %}· {% endif %}{{ post.data.page.date | readableDate}}</p>
 </div>

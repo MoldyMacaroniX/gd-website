@@ -8,6 +8,7 @@ pagination:
 permalink: "categories/{{ paged.tagName }}/{% if paged.number > 1 %}{{ paged.number }}/{% endif %}index.html"
 eleventyComputed:
     title: "{{ paged.tagName | capitalize }}"
+    desc: Articles in the "{{ paged.tagName | capitalize }}" category.
 ---
 
 <h1 class="title" style="margin-bottom: 20px;">{{ paged.tagName | capitalize }}</h1>

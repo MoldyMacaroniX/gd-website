@@ -1,5 +1,4 @@
 {
     "layout": "layouts/post.njk",
-    "article": "true",
-    "image":"https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg"
+    "article": "true"
 }

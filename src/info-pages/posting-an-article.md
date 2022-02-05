@@ -1,8 +1,7 @@
 ---
 title: Publishing an Article
-image: https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg
 permalink: /publish-article/
-desc: How to post an article.
+desc: How to publish an article.
 ---
 
 First, make sure the article is edited and ready to go. Double check for correct syntax. If you are able to, preview the post in a local development environment.

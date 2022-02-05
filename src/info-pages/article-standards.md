@@ -1,8 +1,7 @@
 ---
 title: Article Standards
-image: https://www.pockettactics.com/wp-content/uploads/2021/09/Geometry-Dash-APK-Mod.jpg
 permalink: /article-standards/
-desc: How to post an article.
+desc: The goal is for all content on this website to be of the utmost quality for our readers. Because of this, articles that do not meet these standards may not be published.
 ---
 
 The goal is for all content on this website to be of the utmost quality for our readers. Because of this, articles that do not meet these standards may not be published. To increase the chances of your article getting published, please follow these standards closely.

@@ -9,6 +9,7 @@ pagination:
 permalink: "/authors/{{author.key}}/"
 eleventyComputed:
    title: "{{author.name}}"
+   desc: "{{author.name}}'s profile."
 ---
 
 {% set featured = collections[ "featured" ] | reverse | getAuthorPosts(author.key) %}
