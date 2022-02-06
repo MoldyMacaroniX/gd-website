@@ -1,14 +1,18 @@
 ---
 layout: layouts/main.njk
 title: Authors
-permalink: "/authors/"
+# permalink: "/authors/"
 desc: All website authors.
+pagination:
+   data: authors
+   size: 10
+   alias: paged
 ---
 
 <h1 class="title" style="margin-bottom: 20px;">All Authors</h1>
 
 <div class="grid-2" id="list">
-{% for author in authors | sort(attribute='name') %}
+{% for author in paged | sort(attribute='name') %}
 {% set featured = collections[ "featured" ] | reverse | getAuthorPosts(author.key) %}
 {% set all = collections.posts | getAuthorPosts(author.key) %}
 {% set points = (featured.length * 2) + (all.length * 1) %}
@@ -33,6 +37,11 @@ desc: All website authors.
 </div>
 {% endfor %}
 </div>
+
+{% if authors.length > 10 %}
+{% include "partials/paginator.njk" %}
+{% endif %}
+
 <script>
    SortData();
 

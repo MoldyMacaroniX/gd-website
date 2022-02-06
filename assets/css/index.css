@@ -853,6 +853,8 @@ details[open] .details-icon.ri-add-line:before {
 
 .article img, .article video, .article iframe {
     border-radius: var(--border-radius);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .article hr {

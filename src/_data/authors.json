@@ -1,5 +1,15 @@
 [
 	{
+		"key":"gdcs",
+		"name":"Creator School",
+		"bio": "The Geometry Dash Creator School is a place where aspiring creators can turn into experienced level makers!",
+		"photo":"https://pbs.twimg.com/profile_images/1481853328497729539/-9LBgT4Y_400x400.jpg",
+		"youtube":"GDCreatorSchool",
+		"twitter":"GDCreatorSchool",
+		"discord":"gdcs",
+		"verified": "true"
+	},
+	{
 		"key":"moldymacaronix",
 		"name":"MoldyMacaroniX",
 		"bio": "I am Moldy. Not literally, of course.",

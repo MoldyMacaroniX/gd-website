@@ -1,4 +1,4 @@
 <div class="pagination">
-    <a href="{% if not paged.first %}{{ pagination.href.previous | url }}{% else %}{{ page.url }}{% endif %}" class="button button-full{% if paged.first %} disabled{% endif %}"><span class="ri-arrow-left-line"></span> Newer Articles</a>
-    <a href="{% if not paged.last %}{{ pagination.href.next | url }}{% else %}{{ page.url }}{% endif %}" class="button button-full{% if paged.last %} disabled{% endif %}">Older Articles <span class="ri-arrow-right-line"></span></a>
+    <a href="{% if (not paged.first) %}{{ pagination.href.previous | url }}{% else %}{{ page.url }}{% endif %}" class="button button-full{% if (paged.first) or not (pagination.href.previous) %} disabled{% endif %}"><span class="ri-arrow-left-line"></span> Newer Articles</a>
+    <a href="{% if (not paged.last) %}{{ pagination.href.next | url }}{% else %}{{ page.url }}{% endif %}" class="button button-full{% if (paged.last) or not (pagination.href.next) %} disabled{% endif %}">Older Articles <span class="ri-arrow-right-line"></span></a>
 </div>

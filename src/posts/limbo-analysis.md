@@ -4,7 +4,6 @@ desc: "To me, it feels as if it has been a long time since a really high quality
 image: https://i.ytimg.com/vi/8vc2YoLWM0c/maxresdefault.jpg
 date: 2022-01-30
 tags:
-    - featured
     - review
 author: moldymacaronix
 ---
