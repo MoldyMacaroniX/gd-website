@@ -54,7 +54,7 @@ layout: layouts/base.njk
                 <div class="author">
                     <div class="cols">
                         <div class="author-img">
-                            <a href="/authors/{{ myAuthor.key }}/"><img src="{{ myAuthor.photo }}" alt="{{ myAuthor.name }}" loading="lazy"></a>
+                            <a href="/authors/{{ myAuthor.key }}/"><img src="{% if myAuthor.photo %}{{ myAuthor.photo }}{% else %}{{ site.defaultpfp }}{% endif %}" alt="{{ myAuthor.name }}" loading="lazy"></a>
                         </div>
                         <div class="col">
                             <span class="name"><a href="/authors/{{ myAuthor.key }}/">{{ myAuthor.name }}</a> {% if myAuthor.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if myAuthor.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ myAuthor.twitter }}" class="follow">Follow</a></span>{% endif %}

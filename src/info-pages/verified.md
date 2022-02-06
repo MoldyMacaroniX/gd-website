@@ -10,8 +10,8 @@ The verified badge is assigned to authors who are well-known in the Geometry Das
 
 In order to be eligible for the verified badge, you must meet at least one of the following criteria.
 
-* 20,000 or more subscribers on YouTube.
-* 10,000 or more followers on Twitch.
+* 10,000 or more subscribers on YouTube.
+* 5,000 or more followers on Twitch.
 * 5,000 or more followers on Twitter.
 * In-game moderator.
 * Have a level featured in the map packs or gauntlets.

@@ -3,8 +3,6 @@ title: Why is Geometry Dash 2.2 taking so long?
 desc: Geometry Dash 2.2 is taking so long mainly because of platformer mode, the arrow trigger, and versus mode.
 image: https://pbs.twimg.com/media/EkbZvHSVgAA6zBj?format=png&name=900x900
 date: 2022-01-25
-tags:
-    - featured
 author: moldymacaronix
 ---
 

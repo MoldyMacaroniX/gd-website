@@ -695,6 +695,10 @@ a.footer-item {
     --grey: rgb(190, 190, 190);
 }
 
+ol > li::marker {
+    font-weight: bold;
+}
+
 .article {
     position: relative;
 }

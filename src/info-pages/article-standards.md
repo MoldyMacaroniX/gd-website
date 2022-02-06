@@ -114,6 +114,8 @@ The featured status is reserved for articles that master all standards mentioned
 
 Most importantly, featured articles should be **interesting**, so the topic you choose is arguably the most important aspect of getting your article featured. Articles on famous players or events are therefore more likely to get featured than others.
 
+Similarly, shorter articles (less than 1000 words) are less likely to get featured. Try and provide your reader with a lot of interesting content.
+
 Website staff are ultimately the ones who determine which articles recieve, don't recieve, or get removed of the featured status.
 
 # Help

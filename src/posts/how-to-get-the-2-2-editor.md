@@ -4,7 +4,7 @@ desc: You may have seen some YouTubers supposedly playing Geometry Dash 2.2. I m
 image: https://i.ytimg.com/vi/r_jPnwM0WZE/maxresdefault.jpg
 date: 2022-01-25
 tags:
-    - featured
+    - guide
 author: moldymacaronix
 ---
 

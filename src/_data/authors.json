@@ -38,7 +38,8 @@
 		"photo":"https://yt3.ggpht.com/IIrNc4Jmja9s6rA0D_3SL_WnvdJhbwT2QwLXoJG9_alEgIKgeRAvSnWdFUsXntVpf_FTSM_v84Q",
 		"youtube":"OmegaFalcon",
 		"twitter":"OmegaFalcon_",
-		"gdbrowser":"OmegaFalcon"
+		"gdbrowser":"OmegaFalcon",
+		"verified": "true"
 	},
 	{
 		"key":"ryli",
@@ -66,5 +67,9 @@
 		"youtube":"UC-hJIJWWxRn9ha-rhGtk7hA",
 		"discord":"MFP4CPVjC9",
 		"gdbrowser":"Airplaneguy9"
+	},
+	{
+		"key":"xeqoir",
+		"name":"Xeqoir"
 	}
 ]

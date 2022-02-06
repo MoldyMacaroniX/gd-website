@@ -20,7 +20,7 @@ eleventyComputed:
 <div class="author author-big">
    <div class="cols">
       <div class="author-img">
-            <a href="/authors/{{ author.key }}/"><img src="{{ author.photo }}" alt="{{ author.name }}"></a>
+            <a href="/authors/{{ author.key }}/"><img src="{% if author.photo %}{{ author.photo }}{% else %}{{ site.defaultpfp }}{% endif %}" alt="{{ author.name }}"></a>
       </div>
       <div class="col">
             <span class="name"><a href="/authors/{{ author.key }}/">{{ author.name }}</a> {% if author.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if author.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ author.twitter }}" class="follow">Follow</a></span>{% endif %}
