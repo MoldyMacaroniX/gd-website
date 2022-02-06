@@ -1,6 +1,6 @@
 ---
 title: "An Unknown Masterpiece: History of Arcane"
-desc: "I find Ultimate Destruction to have a sort of charm that other 1.0 levels don't have."
+desc: "Update 2.1 has been released for 5 years now and it's no surprise that many great levels made during this period have greatly impacted this game's legacy."
 image: https://i.imgur.com/m9YEBmB.png
 date: 2022-02-05
 tags:
