@@ -1,11 +1,11 @@
 ---
-title: "An Unknown Masterpiece: History of Arcane"
+title: "Arcane: A Level Too Obscure"
 desc: "Update 2.1 has been released for 5 years now and it's no surprise that many great levels made during this period have greatly impacted this game's legacy."
 image: https://i.imgur.com/m9YEBmB.png
 date: 2022-02-05
 tags:
     - history
-author: xeqoir
+author: emperorxeq
 ---
 
 Update 2.1 has been released for 5 years now and it's no surprise that many great levels made during this period have greatly impacted this game's legacy. Sadly, many of these great creations are unknown to the wider GD community. Levels like this always pique my interest and it will be my pleasure today to dig deep into one such level, Arcane by qMystic and more. Please sit back and enjoy the tale of this great level as I delve deep into its rich history.
