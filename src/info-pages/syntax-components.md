@@ -6,7 +6,7 @@ desc: Reference sheet for all syntax and components that can be used in articles
 
 Here is a reference sheet for all syntax and components that can be used in articles.
 
-# Article Example
+# Examples
 
 {% details "Article Example" %}
 
@@ -28,6 +28,27 @@ Geometry Dash 2.2 is taking so long mainly because of platformer mode, the arrow
 However, seeing the progress RobTop has via the official sneak peek and other leaks, it is clear that 2.2 is close to releasing.
 
 In conclusion, 2.2 is taking so long because of features that require major game redesigns, including platformer mode, the arrow trigger, and versus mode.
+```
+
+{% enddetails %}
+
+
+
+
+
+{% details "Citing Sources Example" %}
+
+The following example shows two methods to cite sources. Citing sources is not required but is highly recommended. Articles with proper sources are more likely to get published. The first method is better to use for more casual articles, whereas the second method is better for longer essays that include a lot of facts as evidence.
+
+```md
+# Method 1: Use links
+
+1st Level by Real Storm is the [first uploaded level](https://gdforum.freeforums.net/thread/3029/first-online-level-geometry-dash) and was released [back in 2013](https://geometry-dash.fandom.com/wiki/Geometry_Dash).
+
+# Method 2: Sources Section
+
+1. [The First Ever Online Level In Geometry Dash](https://gdforum.freeforums.net/thread/3029/first-online-level-geometry-dash)
+2. [Geometry Dash Release Date](https://geometry-dash.fandom.com/wiki/Geometry_Dash)
 ```
 
 {% enddetails %}
