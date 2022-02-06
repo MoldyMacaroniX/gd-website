@@ -14,6 +14,7 @@ eleventyComputed:
 
 {% set featured = collections[ "featured" ] | reverse | getAuthorPosts(author.key) %}
 {% set all = collections.posts | getAuthorPosts(author.key) %}
+{% set points = (featured.length * 2) + (all.length * 1) %}
 
 <h1 class="title" style="margin-bottom: 20px;">{{ author.name }}</h1>
 
@@ -31,7 +32,7 @@ eleventyComputed:
                {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}" class="ri-twitter-fill" data-tooltip="Twitter" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
                {% if author.discord %}<a href="https://discord.gg/{{ author.discord }}" class="ri-discord-fill" data-tooltip="Discord" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
                {% if author.gdbrowser %}<a href="https://gdbrowser.com/u/{{ author.gdbrowser }}" class="ri-global-fill" data-tooltip="GDBrowser" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
-               {# <span style="display: flex; align-self: center; color: var(--txt-light);">· <i class="ri-pencil-fill" style="color: var(--primary); display: flex; align-self: center; margin: 0 5px;"></i> <!--<span id="points" style="color: var(--txt);">Loading...</span>--><span style="color: var(--txt);">{{ all | length }}</span></span> #}
+               <span style="display: flex; align-self: center; color: var(--txt-light);">· <i class="ri-pencil-ruler-2-fill" style="color: var(--primary); display: flex; align-self: center; margin: 0 5px;"></i> <!--<span id="points" style="color: var(--txt);">Loading...</span>--><span style="color: var(--txt);">{{ points }}</span></span>
             </span>
       </div>
    </div>
@@ -49,7 +50,7 @@ eleventyComputed:
       </div>
       <div class="col">
          <span class="author-score-title">Author Score</span>
-         <span class="author-score-value" id="points">Loading...</span>
+         <span class="author-score-value" id="points">{{ points }}</span>
       </div>
    </div>
 </div>
@@ -69,10 +70,3 @@ eleventyComputed:
    </div>
 </div>
 {% endif %}
-
-<script>
-   var featuredPosts = {{ featured.length }};
-   var allPosts = {{ all.length }};
-   var points = (featuredPosts * 2) + (allPosts * 1);
-   document.getElementById("points").innerHTML = points;
-</script>

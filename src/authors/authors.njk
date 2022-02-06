@@ -7,9 +7,12 @@ desc: All website authors.
 
 <h1 class="title" style="margin-bottom: 20px;">All Authors</h1>
 
-<div class="grid-2">
+<div class="grid-2" id="list">
 {% for author in authors | sort(attribute='name') %}
-<div class="author">
+{% set featured = collections[ "featured" ] | reverse | getAuthorPosts(author.key) %}
+{% set all = collections.posts | getAuthorPosts(author.key) %}
+{% set points = (featured.length * 2) + (all.length * 1) %}
+<div class="author index" data-index="{{ points }}">
    <div class="cols">
       <div class="author-img">
             <a href="/authors/{{ author.key }}/"><img src="{% if author.photo %}{{ author.photo }}{% else %}{{ site.defaultpfp }}{% endif %}" alt="{{ author.name }}"></a>
@@ -23,9 +26,30 @@ desc: All website authors.
                {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}" class="ri-twitter-fill" data-tooltip="Twitter" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
                {% if author.discord %}<a href="https://discord.gg/{{ author.discord }}" class="ri-discord-fill" data-tooltip="Discord" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
                {% if author.gdbrowser %}<a href="https://gdbrowser.com/u/{{ author.gdbrowser }}" class="ri-global-fill" data-tooltip="GDBrowser" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+               <span style="display: flex; align-self: center; color: var(--txt-light);">· <i class="ri-pencil-ruler-2-fill" style="color: var(--primary); display: flex; align-self: center; margin: 0 5px;"></i> <!--<span id="points" style="color: var(--txt);">Loading...</span>--><span style="color: var(--txt);">{{ points }}</span></span>
             </span>
       </div>
    </div>
 </div>
 {% endfor %}
 </div>
+<script>
+   SortData();
+
+   function comparator(a, b) {
+      if (parseInt(a.dataset.index) > parseInt(b.dataset.index))
+            return -1;
+      if (parseInt(a.dataset.index) > parseInt(b.dataset.index))
+            return 1;
+      return 0;
+   }
+      
+   // Function to sort Data
+   function SortData() {
+      var indexes = document.querySelectorAll("[data-index]");
+      var indexesArray = Array.from(indexes);
+      let sorted = indexesArray.sort(comparator);
+      sorted.forEach(e =>
+            document.querySelector("#list").appendChild(e));
+   }
+</script>
