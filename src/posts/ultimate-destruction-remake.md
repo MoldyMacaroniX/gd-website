@@ -40,7 +40,7 @@ It is hard to show the differences with just photos, so I recommend checking out
 
 # My Geometry Jump Remake
 
-I tried to stay true to RobTop's style while also not limiting myself, which was a vert fun challenge. Ultimately, the result was [The Seventh Day](https://gdbrowser.com/77911546).
+I tried to stay true to RobTop's style while also not limiting myself, which was a very fun challenge. Ultimately, the result was [The Seventh Day](https://gdbrowser.com/77911546).
 
 ## Music
 
