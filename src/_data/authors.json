@@ -86,5 +86,24 @@
 		"youtube":"UCR19Dn-90bX_zNZzGr1Ewrg",
 		"discord":"9mAPF444Fa",
 		"gdbrowser":"Dashphamy"
+	},
+	{
+		"key":"bizaare",
+		"name":"Bizaare",
+		"photo":"https://cdn.discordapp.com/attachments/633802902867148800/932017847092260934/unknown.png",
+		"youtube":"UCRMOkByfpjmyu609tHi3apA",
+		"twitch":"bizaaregd",
+		"twitter":"BizaareGD",
+		"discord":"58HnfZKH4d",
+		"gdbrowser":"Bizaare",
+		"verified": "true"
+	},
+	{
+		"key":"isla",
+		"name":"Isla",
+		"bio":"15 y/o Dasher",
+		"photo":"https://cdn.discordapp.com/avatars/302513510280069121/a4a38270d81c9be383a295d2dd668df8.png?size=4096",
+		"youtube":"UCwtpP1jVQxyCvCjrtiIV5gA",
+		"twitter":"islatw"
 	}
 ]

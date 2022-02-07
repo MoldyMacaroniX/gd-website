@@ -1,18 +1,18 @@
 ---
 layout: layouts/main.njk
 title: Authors
-# permalink: "/authors/"
+permalink: "/authors/"
 desc: All website authors.
-pagination:
-   data: authors
-   size: 10
-   alias: paged
+# pagination:
+#   data: authors
+#   size: 10
+#   alias: paged
 ---
 
 <h1 class="title" style="margin-bottom: 20px;">All Authors</h1>
 
-<div class="grid-2" id="list">
-{% for author in paged | sort(attribute='name') %}
+<div class="grid-2" id="list"> {# Change "authors" in for tag below to paged for pagination #}
+{% for author in authors | sort(attribute='name') %}
 {% set featured = collections[ "featured" ] | reverse | getAuthorPosts(author.key) %}
 {% set all = collections.posts | getAuthorPosts(author.key) %}
 {% set points = (featured.length * 2) + (all.length * 1) %}
@@ -38,9 +38,14 @@ pagination:
 {% endfor %}
 </div>
 
-{% if authors.length > 10 %}
-{% include "partials/paginator.njk" %}
-{% endif %}
+{# {% if authors.length > 10 %}
+
+<div class="pagination">
+    <a href="{% if (not paged.first) %}{{ pagination.href.previous | url }}{% else %}{{ page.url }}{% endif %}" class="button button-full{% if (paged.first) or not (pagination.href.previous) %} disabled{% endif %}"><span class="ri-arrow-left-line"></span> Previous Page</a>
+    <a href="{% if (not paged.last) %}{{ pagination.href.next | url }}{% else %}{{ page.url }}{% endif %}" class="button button-full{% if (paged.last) or not (pagination.href.next) %} disabled{% endif %}">Next Page <span class="ri-arrow-right-line"></span></a>
+</div>
+
+{% endif %} #}
 
 <script>
    SortData();
