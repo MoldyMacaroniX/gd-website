@@ -3,8 +3,6 @@ title: When is geometry dash 2.2 coming out?
 desc: Unlike popular belief, Geometry Dash 2.2 is not coming out on Tuesday February 22, 2022.
 image: https://i.ytimg.com/vi/ipK7vQ8gEZw/maxresdefault.jpg
 date: 2022-02-01
-tags:
-    - featured
 author: moldymacaronix
 ---
 
