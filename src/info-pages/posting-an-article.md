@@ -8,7 +8,7 @@ First, make sure the article is edited and ready to go. Double check for correct
 
 # Metadata
 
-You can assign, delete, and edit metadata by editing the **frontmatter**. Make sure the post has a valid, title, description, date, image, author, and tags. If the article does not fit in any one tag, do not assign it any at all. If this is the case, **do not** just leave the tag value empty, but remove it altogether.
+You can assign, delete, and edit metadata by editing the **frontmatter**. Make sure the post has a valid title, description, date, image, author, and tags. If the article does not fit in any one tag, do not assign it any at all. If this is the case, **do not** just leave the tag value empty, but remove it altogether.
 
 # Assigning an author
 
