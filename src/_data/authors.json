@@ -107,5 +107,52 @@
 		"photo":"https://cdn.discordapp.com/avatars/302513510280069121/a4a38270d81c9be383a295d2dd668df8.png?size=4096",
 		"youtube":"UCwtpP1jVQxyCvCjrtiIV5gA",
 		"twitter":"islatw"
+	},
+	{
+   		"key":"lundshurk",
+   		"name":"Lundshurk",
+   		"bio": "geometry dash gamer 2014",
+   		"photo":"https://cdn.discordapp.com/attachments/927485717133811762/938991246364528710/regular_pfp.jpg",
+   		"youtube":"UCiJXfE3_a5c36TA64iK3hvw",
+   		"twitch":"lundshurk",
+   		"gdbrowser":"lundshurk"
+	},
+	{
+        	"key":"jordantrs",
+        	"name":"JordanTRS",
+        	"photo": "https://cdn.discordapp.com/attachments/934230708602413126/939014629592535092/unknown.png",
+        	"youtube":"UCoqfw6GG_VlaUlJ2UIgHR7g",
+        	"twitch":"realjordantrs",
+        	"twitter":"jordantrs",
+        	"discord":"YegB7N9upM",
+        	"gdbrowser":"JordanTRS"
+    	},
+	{
+    		"key":"hiitsfr0stedm4c",
+    		"name":"Fr0stedM4c",
+    		"bio": "Beat it or you dont need it",
+    		"photo":"https://imgur.com/v8HdMSZ",
+    		"youtube":"UCQyHS0gyRljnI5VzDo3cEyg",
+    		"customyt":"true",
+    		"twitch":"Fr0stedM4c",
+    		"twitter":"Fr0stedM4c",
+    		"discord":"aV5tc9FvPZ",
+    		"gdbrowser":"Fr0stedM4c"
+	},
+	{
+    		"key":"enzote",
+    		"name":"Enzote",
+    		"bio": "Enzote, aka: MikaKC, is a C++ and Web developer who plays Geometry Dasher!",
+    		"photo":"https://github.com/MikaKC/mikakc.github.io/blob/main/assets/pfp.png?raw=true",
+    		"gdbrowser":"Enzote"
+	},
+	{
+    		"key":"c649007",
+    		"name":"Clustifle649",
+    		"bio": "Dashword.net author. Geometry Dash YouTuber and also was a layout creator.",
+    		"photo":"https://media.discordapp.net/attachments/935696485566267392/939132276715958363/2022_01_30_100_Kleki.png?width=465&height=465",
+    		"youtube":"UCljTW_HL82F30ejqscmXEBA",
+    		"twitter":"clustifle649",
+    		"gdbrowser":"Clustifle649"
 	}
 ]
