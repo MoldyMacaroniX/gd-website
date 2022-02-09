@@ -126,7 +126,7 @@
         	"photo": "https://cdn.discordapp.com/attachments/934230708602413126/939014629592535092/unknown.png",
         	"youtube":"UCoqfw6GG_VlaUlJ2UIgHR7g",
         	"twitch":"realjordantrs",
-        	"twitter":"jordantrs1",
+        	"twitter":"jordantrs",
         	"discord":"YegB7N9upM",
         	"gdbrowser":"JordanTRS"
     	},
@@ -141,5 +141,12 @@
     		"twitter":"Fr0stedM4c",
     		"discord":"aV5tc9FvPZ",
     		"gdbrowser":"Fr0stedM4c"
+	},
+	{
+    		"key":"enzote",
+    		"name":"Enzote",
+    		"bio": "Enzote, aka: MikaKC, is a C++ and Web developer who plays Geometry Dasher!",
+    		"photo":"https://github.com/MikaKC/mikakc.github.io/blob/main/assets/pfp.png?raw=true",
+    		"gdbrowser":"Enzote"
 	}
 ]
