@@ -111,11 +111,14 @@
 		"youtube":"UCwtpP1jVQxyCvCjrtiIV5gA",
 		"twitter":"islatw"
 	},
-        {
-		"key":"jordantrs",
-		"name":"JordanTRS",
-		"photo": "https://cdn.discordapp.com/attachments/934230708602413126/939014629592535092/unknown.png",
-		"youtube":"jordantrs",
-		"twitter":"jordantrs"
+	{
+   		"key":"lundshurk",
+   		"name":"Lundshurk",
+   		"bio": "geometry dash gamer 2014",
+   		"photo":"https://cdn.discordapp.com/attachments/927485717133811762/938991246364528710/regular_pfp.jpg",
+   		"youtube":"UCiJXfE3_a5c36TA64iK3hvw",
+   		"twitch":"lundshurk",
+   		"gdbrowser":"lundshurk"
 	}
+
 ]
