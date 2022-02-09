@@ -39,7 +39,6 @@
 		"bio":"BERP BERP BERP",
 		"photo":"https://yt3.ggpht.com/A7KsEjA1NPKNjZD4idAWyuwjkVIYiV_OnHG11G9ht3CovG6HJVw7b4DNyY-Hla9on-BXQC8C=s900-c-k-c0x00ffffff-no-rj",
 		"youtube":"Cobgd",
-		"customyt":"true",
 		"twitch":"gdcob",
 		"twitter":"gdcob2",
 		"discord":"bZcjgYUqHB",
@@ -50,7 +49,6 @@
 		"name":"OmegaFalcon",
 		"photo":"https://yt3.ggpht.com/IIrNc4Jmja9s6rA0D_3SL_WnvdJhbwT2QwLXoJG9_alEgIKgeRAvSnWdFUsXntVpf_FTSM_v84Q",
 		"youtube":"OmegaFalcon",
-		"customyt":"true",
 		"twitter":"OmegaFalcon_",
 		"gdbrowser":"OmegaFalcon",
 		"verified": "true"
@@ -61,7 +59,6 @@
 		"bio":"Hey! My name is Ryli, I'm a 16 year old trans girl from Canada. I'm a GD creator and an aspiring in-game moderator.",
 		"photo":"https://yt3.ggpht.com/ytc/AKedOLSiJtREXIl22h_HIif1xJWadekhzjhPRjO68ArbpA=s900-c-k-c0x00ffffff-no-rj",
 		"youtube":"Ryli06",
-		"customyt":"true",
 		"twitch":"rily06",
 		"gdbrowser":"Ryli06"
 	},
@@ -110,24 +107,5 @@
 		"photo":"https://cdn.discordapp.com/avatars/302513510280069121/a4a38270d81c9be383a295d2dd668df8.png?size=4096",
 		"youtube":"UCwtpP1jVQxyCvCjrtiIV5gA",
 		"twitter":"islatw"
-	},
-	{
-   		"key":"lundshurk",
-   		"name":"Lundshurk",
-   		"bio": "geometry dash gamer 2014",
-   		"photo":"https://cdn.discordapp.com/attachments/927485717133811762/938991246364528710/regular_pfp.jpg",
-   		"youtube":"UCiJXfE3_a5c36TA64iK3hvw",
-   		"twitch":"lundshurk",
-   		"gdbrowser":"lundshurk"
-	},
-	{
-		"key":"jordantrs",
-		"name":"JordanTRS",
-		"photo": "https://cdn.discordapp.com/attachments/934230708602413126/939014629592535092/unknown.png",
-		"youtube":"UCoqfw6GG_VlaUlJ2UIgHR7g",
-		"twitch":"realjordantrs",
-		"twitter":"jordantrs",
-		"discord":"YegB7N9upM",
-		"gdbrowser":"JordanTRS"
 	}
 ]
