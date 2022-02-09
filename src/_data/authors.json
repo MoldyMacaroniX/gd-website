@@ -110,5 +110,12 @@
 		"photo":"https://cdn.discordapp.com/avatars/302513510280069121/a4a38270d81c9be383a295d2dd668df8.png?size=4096",
 		"youtube":"UCwtpP1jVQxyCvCjrtiIV5gA",
 		"twitter":"islatw"
+	},
+        {
+		"key":"jordantrs",
+		"name":"JordanTRS",
+		"photo": "https://cdn.discordapp.com/attachments/934230708602413126/939014629592535092/unknown.png",
+		"youtube":"jordantrs",
+		"twitter":"jordantrs"
 	}
 ]
