@@ -17,6 +17,7 @@ To add a profile, add a new object at the end like the following:
     "bio": "I am Moldy. Not literally, of course.",
     "photo":"https://example.com/file.jpg",
     "youtube":"moldymacaronix",
+    "customyt":"true",
     "twitch":"moldymacaronix",
     "twitter":"moldymacaronix",
     "discord":"PqTUgx6",
@@ -29,10 +30,11 @@ To add a profile, add a new object at the end like the following:
 3. `bio` (optional) is for a short description of who the author is.
 4. `photo` is for a link to the author's profile picture.
 5. `youtube` (optional) is for the author's YouTube.
-6. `twitch` (optional) is for the author's Twitch.
-7. `twitter` (optional) is for the author's Twitter.
-8. `discord` (optional) is for the author's Discord server.
-9. `gdbrowser` (optional) is for the author's in-game profile.
+6. `customyt` (required if `youtube` is set) provide if the author's YouTube is using a custom channel ID instead of the auto-generated ID.
+7. `twitch` (optional) is for the author's Twitch.
+8. `twitter` (optional) is for the author's Twitter.
+9. `discord` (optional) is for the author's Discord server.
+10. `gdbrowser` (optional) is for the author's in-game profile.
 
 If one of the optional values is not to be provided, remove the object property altogether.
 
@@ -47,6 +49,7 @@ Simply add `"verified":"true"` like the following example.
     "bio": "I am Moldy. Not literally, of course.",
     "photo":"https://example.com/file.jpg",
     "youtube":"moldymacaronix",
+    "customyt":"true",
     "twitch":"moldymacaronix",
     "twitter":"moldymacaronix",
     "discord":"PqTUgx6",

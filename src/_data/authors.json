@@ -5,6 +5,7 @@
 		"bio": "The Geometry Dash Creator School is a place where aspiring creators can turn into experienced level makers!",
 		"photo":"https://pbs.twimg.com/profile_images/1481853328497729539/-9LBgT4Y_400x400.jpg",
 		"youtube":"GDCreatorSchool",
+		"customyt":"true",
 		"twitter":"GDCreatorSchool",
 		"discord":"gdcs",
 		"verified": "true"
@@ -15,6 +16,7 @@
 		"bio": "I am Moldy. Not literally, of course.",
 		"photo":"https://yt3.ggpht.com/ytc/AKedOLQr8KPiI594vmcI02OJ-1eIHRwESVuzCRm1bsauNA=s900-c-k-c0x00ffffff-no-rj",
 		"youtube":"moldymacaronix",
+		"customyt":"true",
 		"twitch":"moldymacaronix",
 		"twitter":"moldymacaronix",
 		"discord":"PqTUgx6",
@@ -37,6 +39,7 @@
 		"bio":"BERP BERP BERP",
 		"photo":"https://yt3.ggpht.com/A7KsEjA1NPKNjZD4idAWyuwjkVIYiV_OnHG11G9ht3CovG6HJVw7b4DNyY-Hla9on-BXQC8C=s900-c-k-c0x00ffffff-no-rj",
 		"youtube":"Cobgd",
+		"customyt":"true",
 		"twitch":"gdcob",
 		"twitter":"gdcob2",
 		"discord":"bZcjgYUqHB",
@@ -47,6 +50,7 @@
 		"name":"OmegaFalcon",
 		"photo":"https://yt3.ggpht.com/IIrNc4Jmja9s6rA0D_3SL_WnvdJhbwT2QwLXoJG9_alEgIKgeRAvSnWdFUsXntVpf_FTSM_v84Q",
 		"youtube":"OmegaFalcon",
+		"customyt":"true",
 		"twitter":"OmegaFalcon_",
 		"gdbrowser":"OmegaFalcon",
 		"verified": "true"
@@ -57,6 +61,7 @@
 		"bio":"Hey! My name is Ryli, I'm a 16 year old trans girl from Canada. I'm a GD creator and an aspiring in-game moderator.",
 		"photo":"https://yt3.ggpht.com/ytc/AKedOLSiJtREXIl22h_HIif1xJWadekhzjhPRjO68ArbpA=s900-c-k-c0x00ffffff-no-rj",
 		"youtube":"Ryli06",
+		"customyt":"true",
 		"twitch":"rily06",
 		"gdbrowser":"Ryli06"
 	},
