@@ -104,6 +104,7 @@
 		"key":"isla",
 		"name":"Isla",
 		"bio":"15 y/o Dasher",
+		"photo":"https://i.imgur.com/q5I65nW.png",
 		"youtube":"UCwtpP1jVQxyCvCjrtiIV5gA",
 		"twitter":"islatw"
 	},
@@ -125,5 +126,12 @@
 		"twitter":"jordantrs1",
 		"discord":"YegB7N9upM",
 		"gdbrowser":"JordanTRS"
+	},
+	{
+		"key":"enzote",
+		"name":"Enzote",
+		"bio": "Enzote, aka: MikaKC, is a C++ and Web developer who plays Geometry Dash!",
+		"photo":"https://github.com/MikaKC/mikakc.github.io/blob/main/assets/pfp.png?raw=true",
+		"gdbrowser":"Enzote"
 	}
 ]
