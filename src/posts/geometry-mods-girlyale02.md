@@ -10,7 +10,7 @@ author: enzote
 
 This Geometry Dash creator and player has been on the radar for almost 3 years. Creating levels such as 3D Dash, Rythmic Space, and many more. This is GirlyAle02, a Geometry Dash moderator promoted 4 months ago! In this article, we will look at her history and will be talking about her favourite level.
 
-# The History
+# Her History
 
 The history of GirlyAle02 starts in 2017, when she saw her friend play the game. She asked to try the first level, even though she died at the first jump of [Stereo Madness](https://www.youtube.com/watch?v=HW41UNolUec). GirlyAle02 decided to download the [lite version](https://apps.apple.com/us/app/geometry-dash-lite/id698255242) of the game.
 
