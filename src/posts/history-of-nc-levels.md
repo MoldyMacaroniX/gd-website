@@ -20,23 +20,19 @@ The next Nine Circles level to be released was NOT in fact Fairydust, but it was
 
 There were different variations of Nine Circles levels that were made, such as the Ultra style (levels include Ultra Paracosm and Ultra Fairydust), the XII style (levels include Nine Circles XII and Paracosm XII), and the modern style (includes levels such as Arctic Lights, Hyper Paracosm, and Bausha Vortex).
 
-![Nine Circles Level](https://i.imgur.com/4DDYJEe.png) 
-
-![Nine Circles Level](https://i.imgur.com/o6wjFem.png)
-
-![Nine Circles Level](https://i.imgur.com/TJIxsD6.png)
+![Nine Circles Levels](https://i.imgur.com/w1ITQMK.jpg)
 
 Despite all the variations, normal Nine Circles levels were still being made, such as Solar Circles, Infinite Circles, and Crimson Clutter. It got to the point where community icon Andromeda created his own Nine Circles level called Poltergeist. This was one of the hardest levels in the game and was the hardest NC level at the time. That is, until Cyclic created his OWN NC level, the infamous Sonic Wave. There were two versions, the original light blue version, and the newer dark blue version. Both versions were hacked, and Sonic Wave was left without a verifier. It stayed like this until some people decided to try and be the first to complete it. Eventually someone named Mefewe started getting some great progress, and ended up getting 98%, dying to his own buff.  
 
 ![Meffewe's Death in Sonic Wave at 98%](https://i.imgur.com/GXPcgRY.png)
 
-Once that happened, he got some people to create a rebirth of Sonic Wave titled “Sonic Wave Rebirth”.
+Once that happened, he got some people to create a rebirth of Sonic Wave titled "Sonic Wave Rebirth".
 
 ![Sonic Wave Rebirth](https://i.imgur.com/hFsVSe4.png)
 
 However, before those plans could be finished, someone named Sunix came out of nowhere and completed Sonic Wave on stream, becoming the first legit victor. Sonic Wave instantly took the #1 spot on the demons list, and is still in the main list today. At this point, the Nine Circles trend was still going strong. That was, until 2.0.
 
-2.0 was a pretty weird time for Nine Circles levels. While some did take advantage of the new features of the update, such as Crying Souls, Quasar, and Ultra Paracosm, most levels stuck to the classic formula. And in fact, it was this update that gave rise to one of the most famous Nine Circles levels ever created. On October 3rd, 2015, ToshDeluxe released a video on a level titled “Silent Circles”. It was a collaboration between Cyrillic and Sailent, an old creator famous for his silent levels. This level was famous not just because of the fact it was a Nine Circles level, but because of the unique way it was impossible. Around the halfway point, you encounter an extremely tight mini wave spam that is humanly impossible, and this was what made Silent Circles so famous.
+2.0 was a pretty weird time for Nine Circles levels. While some did take advantage of the new features of the update, such as Crying Souls, Quasar, and Ultra Paracosm, most levels stuck to the classic formula. And in fact, it was this update that gave rise to one of the most famous Nine Circles levels ever created. On October 3rd, 2015, ToshDeluxe released a video on a level titled "Silent Circles". It was a collaboration between Cyrillic and Sailent, an old creator famous for his silent levels. This level was famous not just because of the fact it was a Nine Circles level, but because of the unique way it was impossible. Around the halfway point, you encounter an extremely tight mini wave spam that is humanly impossible, and this was what made Silent Circles so famous.
 
 ![Silent Circles Spam](https://i.imgur.com/dpdt3Ja.png)
 
