@@ -1,7 +1,7 @@
 ---
 title: "The History of Nine Circles Levels"
 desc: "There have been hundreds of trends that have come across Geometry Dash over the years, but non as important as the Nine Circles trend."
-image: https://cdn.discordapp.com/attachments/934230708602413126/939013630660337704/unknown.png
+image: https://i.imgur.com/vPuX5uS.jpg
 date: 2022-02-10
 tags:
     - featured
