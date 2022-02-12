@@ -1,7 +1,7 @@
 ---
 title: "The History of Nine Circles Levels"
 desc: "There have been hundreds of trends that have come across Geometry Dash over the years, but non as important as the Nine Circles trend."
-image: https://i.imgur.com/vPuX5uS.jpg
+image: https://i.imgur.com/iaSLN9t.png
 date: 2022-02-11
 tags:
     - featured
@@ -28,7 +28,7 @@ Despite all the variations, normal Nine Circles levels were still being made, su
 
 Once that happened, he got some people to create a rebirth of Sonic Wave titled "Sonic Wave Rebirth."
 
-![Sonic Wave Rebirth](https://i.imgur.com/hFsVSe4.png)
+![Sonic Wave and Sonic Wave Rebirth](https://i.imgur.com/HZmYPhj.png)
 
 However, before those plans could be finished, someone named Sunix came out of nowhere and completed Sonic Wave on stream, becoming the first legit victor. Sonic Wave instantly took the #1 spot on the demons list, and is still in the main list today. At this point, the Nine Circles trend was still going strong. That was, until 2.0.
 

@@ -8,9 +8,9 @@ tags:
 author: c649007
 ---
 
-RobTop shared with us a few pictures and a video of a 2.2 montage, which includes the updated online menu, updated treasure room, and the first look of the "Map." However, the updated online menu concept is considered by many to be one of the best new features.
+RobTop shared with us a few pictures and a video of a 2.2 montage, which includes the updated online menu, updated treasure room, and the first look of the "Map." However, the new online menu concept is considered by many to be one of the best new features.
 
-If you look at the updated online menu carefully, you may notice that there's something missing. The Hall of Fame has been removed removed. Forunately, RobTop explained his decision to remove it.
+If you look at the updated online menu carefully, you may notice that there's something missing. The Hall of Fame has been removed. Forunately, RobTop explained his decision to remove it.
 
 ![Someone asks: "Where is hall of fame?" RobTop replies, "its dead"](https://media.discordapp.net/attachments/392087938239954950/942109258374320208/unknown.png)
 
