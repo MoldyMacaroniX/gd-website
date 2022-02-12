@@ -90,7 +90,14 @@ layout: layouts/base.njk
                     <span style="font-weight: bold;">Share</span>
                     <a href="https://twitter.com/intent/tweet?text={{ title }}&url={{ site.url }}{{ page.url }}" class="ri-twitter-fill" target="_blank" rel="noopener"></a>
                     <a href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ title }}" class="ri-reddit-fill" target="_blank" rel="noopener"></a>
-                    <span class="item ri-links-fill" onclick='textToClipboard("{{ site.url }}{{ page.url }}");'></span>
+                    <span class="item ri-links-fill" onclick='textToClipboard("{{ site.url }}{{ page.url }}"); shared();'></span>
+                    <span class="shared" id="shared">Copied URL</span>
+                    <script>
+                        function shared() {
+                            document.getElementById("shared").classList.add("shared-show");
+                            setTimeout(function(){ document.getElementById("shared").classList.remove("shared-show"); }, 3000);
+                        }
+                    </script>
                 </div>
             </div>
         </div>

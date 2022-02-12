@@ -910,6 +910,19 @@ details[open] .details-icon.ri-add-line:before {
     justify-content: center;
 }
 
+.shared {
+    background: var(--primary-light);
+    color: var(--primary);
+    padding: 5px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    display: none;
+}
+
+.shared.shared-show {
+    display: inline;
+}
+
 .post-socials a, .post-socials span.item {
     font-size: 1.75rem;
     cursor: pointer;
