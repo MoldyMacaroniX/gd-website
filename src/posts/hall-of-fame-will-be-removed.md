@@ -1,6 +1,6 @@
 ---
 title: "The Hall of Fame will be Removed in 2.2"
-desc: "Update 2.1 has been released for 5 years now and it's no surprise that many great levels made during this period have greatly impacted this game's legacy."
+desc: RobTop shared with us a few pictures and a video of a 2.2 montage, which includes the updated online menu, updated treasure room, and the first look of the "Map."
 image: https://pbs.twimg.com/media/FKsaF3pUUAMQlZ2?format=jpg&name=large
 date: 2022-02-12
 tags:
