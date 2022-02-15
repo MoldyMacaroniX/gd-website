@@ -415,7 +415,7 @@ ul li {
 .sticky {
     position: sticky;
     top: var(--nav-height);
-    max-height: calc(100vh - var(--nav-height));
+    max-height: calc(100vh - var(--nav-height) - 25px);
     overflow-y: auto;
 }
 
@@ -707,7 +707,7 @@ ol > li::marker {
     padding-left: 40px;
 }
 
-.article h1, .article h2, .article h3, .article h4, .article h5, .article h6, .article p, .article ul, .article ol, .article img, .article video, .article iframe, .article hr, .video-iframe, .article details, .article .alert, .article pre {
+.article h1, .article h2, .article h3, .article h4, .article h5, .article h6, .article p, .article ul, .article ol, .article img, .article video, .article iframe, .article hr, .video-iframe, .article details, .article .alert, .article pre, .article figcaption {
     margin-bottom: 15px;
     display: block;
 }
@@ -717,6 +717,12 @@ ol > li::marker {
     line-height: 2;
     font-size: 1.3rem;
     hyphens: auto;
+}
+
+.article figcaption {
+    color: var(--txt-light);
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 .post p:first-child:first-letter {
@@ -804,6 +810,10 @@ details[open] .details-icon.ri-add-line:before {
     cursor: pointer;
     transition: color 0.25s ease;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.article s {
     text-decoration-thickness: 1px;
 }
 
