@@ -1,7 +1,7 @@
 ---
 title: "The problems with the GD Community"
 desc: "The GD community has recently been really toxic and unsupportive, so I decided to speak up about it."
-image: https://i.ibb.co/mBr3GHR/Screenshot-2021-12-13-22-53-49-46-0b2fce7a16bf2b728d6ffa28c8d60efb-2.jpg
+image: https://i.imgur.com/zeANmIK.png
 date: 2022-02-15
 tags:
     - featured
