@@ -1,6 +1,12 @@
 # Redirects
 
-https://gd-website.netlify.app/* https://www.dashword.net/
+# https://gd-website.netlify.app/* https://www.dashword.net/
 
 /discord https://discord.gg/SqZuGCpHMm
 /discord/ https://discord.gg/SqZuGCpHMm
+
+/submit-article https://forms.gle/9gTYoM4JzjyUwUBg7
+/submit-article/ https://forms.gle/9gTYoM4JzjyUwUBg7
+
+/create-profile https://forms.gle/x9ofooTMfrk72JTt6
+/create-profile/ https://forms.gle/x9ofooTMfrk72JTt6
