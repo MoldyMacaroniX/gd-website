@@ -30,7 +30,7 @@ To add a profile, add a new object at the end like the following:
 3. `bio` (optional) is for a short description of who the author is.
 4. `photo` is for a link to the author's profile picture.
 5. `youtube` (optional) is for the author's YouTube.
-6. `customyt` (required if `youtube` is set) provide if the author's YouTube is using a custom channel ID instead of the auto-generated ID.
+6. `customyt` (required if `youtube` is set with a custom ID) provide if the author's YouTube is using a custom channel ID instead of the auto-generated ID.
 7. `twitch` (optional) is for the author's Twitch.
 8. `twitter` (optional) is for the author's Twitter.
 9. `discord` (optional) is for the author's Discord server.
