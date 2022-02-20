@@ -1,6 +1,6 @@
 ---
 title: "Building For Fun"
-desc: "However, during my time as a community member, there has really only been one moderator that has truly stood out to me as being helpful and outgoing."
+desc: "In this lesson, we will explore how you can enjoy making levels."
 image: /assets/img/GDCSBanner.jpg
 date: 2022-02-20
 tags:
