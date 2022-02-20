@@ -70,6 +70,14 @@ layout: layouts/base.njk
             </div>-->
             {% endif %}
             
+            {% if difficulty %}
+            <div class="percent percent-mini" style="margin-top: 25px; margin-bottom: 0px;">
+                <span class="percent-title">Lesson Difficulty</span>
+                <div class="percent-bar">
+                <div class="percent-value" style="width: {{ difficulty }}%;"></div>
+                </div>
+            </div>
+            {% endif %}
 
         </div>
         <div class="col post-header-img">

@@ -341,3 +341,23 @@ This is an alert. It is displayed with more prominence than regular text.
 {% endalert %}
 
 {% enddetails %}
+
+
+
+
+
+{% details "Percent" %}
+
+Useful for visually displaying percent ratings. To get a percent of any rating, divide the score by the total.
+
+```md
+{.% percent "25" %}
+Difficulty
+{.% endpercent %}
+```
+
+{% percent "25" %}
+Difficulty
+{% endpercent %}
+
+{% enddetails %}

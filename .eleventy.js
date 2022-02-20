@@ -43,6 +43,17 @@ module.exports = (config) => {
     `;
   });
 
+  config.addPairedShortcode("percent", function(title, percent) {
+    return `
+<div class="percent">
+    <span class="percent-title">${title}</span>
+    <div class="percent-bar">
+      <div class="percent-value" style="width: ${percent}%;"></div>
+    </div>
+</div>
+    `;
+  });
+
   config.addPairedShortcode("alert", function(content) {
     return `
 <div class="alert">

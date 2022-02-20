@@ -8,6 +8,23 @@ layout: layouts/main.njk
     </div>
 </div>
 {% endif %}
+{% if summary %}
+<div class="article">
+    <div class="summary">
+    <p>{{ summary }}</p>
+    </div>
+</div>
+{% endif %}
+{# {% if difficulty %}
+<div class="article">
+    <div class="percent">
+        <span class="percent-title">Difficulty</span>
+        <div class="percent-bar">
+        <div class="percent-value" style="width: {{ difficulty }}%;"></div>
+        </div>
+    </div>
+</div>
+{% endif %} #}
 <div class="article">
     {% if post %}<div class="post">{% endif %}
 

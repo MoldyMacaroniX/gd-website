@@ -31,6 +31,8 @@ To get a local copy up and running, follow these simple steps.
    ```
 This will create an instance at [http://localhost:8080/](http://localhost:8080/).
 
+Alternatively, you can run the `install.bat` file to install the NPM packages and then run `run.bat` to run Eleventy. This is an option better for those less familiar with the command line.
+
 ## 📋 Features
 
 This website is very minimal right now but will be expanded on over time.
