@@ -348,7 +348,7 @@ This is an alert. It is displayed with more prominence than regular text.
 
 {% details "Percent" %}
 
-Useful for visually displaying percent ratings. To get a percent of any rating, divide the score by the total.
+Useful for visually displaying percent ratings. To get a percent of any rating, divide the score by the total. Remember to **exclude** the periods.
 
 ```md
 {.% percent "25" %}
