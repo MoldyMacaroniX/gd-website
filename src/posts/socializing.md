@@ -19,7 +19,7 @@ At the same time, it's important to pick your friends wisely. People have prefer
 
 While socializing through this game has many benefits, it's critical that you still create for yourself. The negative aspects of some communities can be a great demotivator, so we advise that you find people whom you enjoy being around.
 
-Going back to the test analogy from last time, anyone can ‘grade' your levels — but not everyone will be a supportive grader. Without a specific rubric to grade by, many people will force their preferences on you, often in toxic ways. However, having friends to help during the test will make it less stressful, and maybe even fun! The same applies to creating, and the faster you learn this, the stronger your footing will be as you get started.
+Going back to the test analogy from last time, anyone can 'grade' your levels — but not everyone will be a supportive grader. Without a specific rubric to grade by, many people will force their preferences on you, often in toxic ways. However, having friends to help during the test will make it less stressful, and maybe even fun! The same applies to creating, and the faster you learn this, the stronger your footing will be as you get started.
 
 # Credits                                                            
 
