@@ -5,7 +5,7 @@ image: https://i.imgur.com/NlPIhmU.png
 date: 2022-02-22
 tags:
     - opinion
-author: yuval
+author: yuval52
 ---
 
 The Geometry Dash community keeps pushing the boundaries of what is possible in the game and have been doing so from the start of the game's lifetime. Levels that used to be considered impossible are being beaten almost every day now. But when will levels become so hard that no one can beat anything harder?
