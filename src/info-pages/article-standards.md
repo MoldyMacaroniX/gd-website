@@ -41,60 +41,6 @@ Ideally, at the very least you should provide a title, description, and image wi
 * The description should be only 1-2 sentences long and can either be a preview from the article (the first couple sentences) or a brief summary.
 * A link to a thumbnail image should be provided. Make sure you are not infringing on anyone's copyright!
 
-## Images
-
-The image associated with your article and images that are part of your article content must be compressed. Here are some tools to compress images:
-
-* [imagecompressor.com](https://imagecompressor.com/)
-* [iloveimg.com/compress-image](https://www.iloveimg.com/compress-image)
-
-Ideally, an image should be around 100-200 kB.
-
-Once your image is compressed, [upload it to imgur](https://imgur.com/upload) (anonymously if you can) to get a shareable link. After you upload an image, you may be prompted to create an account. You do not have to, just use your browser's back button to go back to your uploaded image and copy the link.
-
-# Citing Sources
-
-Ideally, any and all facts in your article should be cited. This is usually done by using a link to reference the source, but if you have a lot of sources, you can reference them all at the end via a sources section. For more information, see the "Citing Sources Example" on the [syntax and components](/syntax-components/) page.
-
-If a fact is considered **common knowledge**, it probably does not need a source. These usually include simple facts like the following examples:
-
-* "Stereo Madness is the first official level"
-* "RobTop is the creator of Geometry Dash"
-* "Viprin is number one on the creators leaderboard"
-
-In general, assume your reader has basic knowledge of well-known levels, players, and YouTubers.
-
-Just because you think you know a fact doesn't mean it is common knowledge. In general, all bold claims should be sourced properly, like the following examples:
-
-* "In order to become an in-game mod, you need to have connections"
-* "1st Level by Real Storm is the first uploaded level"
-* "Chill Out by TheRealDarnoc is the first rated level"
-
-## Why should you cite your sources?
-
-While citing your sources is not mandatory (except for specific circumstances), doing so has some benefits.
-
-* If a fact you use is wrong, you will be less at blame.
-* It can provide extra context to the reader.
-* The article will generally be considered of a higher quality, which might increase its chances at being published or featured.
-
-Because this website is not an academic resource, citing your sources is not mandatory **as long as** the source you are using is not directly stolen from someone else's work and infringing on their copyright. If this is the case, it must be credited.
-
-## What sources should you use?
-
-Here are some recommended sources for citing your facts.
-
-* Geometry Dash Wiki pages
-* Geometry Dash Forums
-* YouTube videos
-* Tweets
-* A level's or creator's GDBrowser page
-* Official statements from players
-
-# Copyright
-
-Make sure your article does not infringe on anyone's copyright. Be sure you are allowed to use any images used in your article and to credit quotes.
-
 # Writing Style
 
 Writing style is relatively open but do follow these general guidelines.
@@ -160,6 +106,18 @@ Most importantly, featured articles should be **interesting**, so the topic you 
 Similarly, shorter articles (less than 1000 words) are less likely to get featured. Try and provide your reader with a lot of interesting content.
 
 Website staff are ultimately the ones who determine which articles recieve, don't recieve, or get removed of the featured status.
+
+# Images
+
+See [working with images](/working-with-images/).
+
+# Citing sources
+
+See [citing sources](/citing-sources/).
+
+# Copyright
+
+Make sure your article does not infringe on anyone's copyright. Be sure you are allowed to use any images used in your article and to credit quotes.
 
 # Help
 

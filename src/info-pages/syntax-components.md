@@ -4,7 +4,11 @@ permalink: /syntax-components/
 desc: Reference sheet for all syntax and components that can be used in articles.
 ---
 
-Here is a reference sheet for all syntax and components that can be used in articles.
+Here is a reference sheet for all syntax and components that can be used in articles. However, do not feel pressured to use any syntax or components if you do not have to.
+
+If you are writing in markdown, the syntax is provided. If you are writing in a document editor such as Google Docs, use their default features and we can correct the syntax. If you are writing in a text editor and are not using markdown, put some kind of heads up where you want each component to be used.
+
+This page also contains some other syntax demos that you can probably ignore.
 
 # Examples
 

@@ -12,6 +12,8 @@ Read these if you want to submit your own articles to be published on this websi
 
 * [How to post an article](/how-to-post-an-article/)
 * [Article standards](/article-standards/)
+* [Working with images](/working-with-images/)
+* [Citing sources](/citing-sources/)
 * [Syntax and components](/syntax-components/)
 
 # Editor Handbook
