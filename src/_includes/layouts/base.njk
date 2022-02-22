@@ -40,7 +40,7 @@
         <a href="/posts/" class="menu-item">Articles</a>
         <a href="/categories/" class="menu-item">Categories</a>
         <a href="/about/" class="menu-item">About</a>
-        <span class="menu-item btn-toggle-2">Theme</span>
+        <span class="menu-item btn-toggle-2"><span class="ri-moon-line btn-toggle-mobile"></span></span>
     </div>
     <div class="menu-bg" id="menu-bg" onclick="closeMobile()"></div>
     <!-- END MENU -->
@@ -85,15 +85,20 @@
 
         const btn = document.querySelector(".btn-toggle");
         const btn2 = document.querySelector(".btn-toggle-2");
+        const btn3 = document.querySelector(".btn-toggle-mobile");
 
         const currentTheme = localStorage.getItem("theme");
         if (currentTheme == "dark") {
             document.body.classList.add("darkmode");
             btn.classList.add("ri-sun-line");
             btn.classList.remove("ri-moon-line");
+            btn3.classList.add("ri-sun-line");
+            btn3.classList.remove("ri-moon-line");
         } else {
             btn.classList.remove("ri-sun-line");
             btn.classList.add("ri-moon-line");
+            btn3.classList.remove("ri-sun-line");
+            btn3.classList.add("ri-moon-line");
         }
 
         btn.addEventListener("click", function () {
@@ -131,9 +136,13 @@
             if (!document.body.classList.contains("darkmode")) {
                 btn.classList.add("ri-sun-line");
                 btn.classList.remove("ri-moon-line");
+                btn3.classList.add("ri-sun-line");
+                btn3.classList.remove("ri-moon-line");
             } else {
                 btn.classList.remove("ri-sun-line");
                 btn.classList.add("ri-moon-line");
+                btn3.classList.remove("ri-sun-line");
+                btn3.classList.add("ri-moon-line");
             }
         }
     </script>
