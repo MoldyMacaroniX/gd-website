@@ -460,6 +460,7 @@ h1.title {
     align-items: center;
     margin: 15px 0;
     margin-top: 25px;
+    gap: 10px;
 }
 
 .footer h1 {
