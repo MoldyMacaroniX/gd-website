@@ -1,7 +1,7 @@
 ---
 title: "What will be the Geometry Dash skill ceiling?"
 desc: "With recent top 1 extreme demons being made and verified faster than ever before, it looks like players only keep improving. But when will it stop?"
-image: https://i.imgur.com/NlPIhmU.png
+image: https://i.imgur.com/gxmUEIq.png
 date: 2022-02-22
 tags:
     - opinion
