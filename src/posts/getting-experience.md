@@ -31,4 +31,4 @@ Just like with tests, you'll do better sometimes and worse at other times, but y
 
 # Sources
 
-* [How to Keep Working When You’re Just Not Feeling It](https://hbr.org/2018/11/how-to-keep-working-when-youre-just-not-feeling-it)
+* [How to Keep Working When You're Just Not Feeling It](https://hbr.org/2018/11/how-to-keep-working-when-youre-just-not-feeling-it)
