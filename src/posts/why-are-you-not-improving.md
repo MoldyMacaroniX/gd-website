@@ -5,7 +5,7 @@ image: https://i.imgur.com/xy0AOH2.jpg
 date: 2022-02-27
 tags:
     - featured
-    - opinion
+    - guide
 author: adya
 ---
 
