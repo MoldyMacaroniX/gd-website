@@ -19,7 +19,7 @@ The escape room only works on 60 hz. If you are using a FPS physics mod, make su
 
 This escape room has checkpoints via start positions. After completing a stage, go into the editor and place a start position at the next checkpoint. Checkpoints can be seen by disabling preview mode in the editor. The conditions the start position must be in are listed above the checkpoint, which also marks where to place the start position.
 
-Consider "expert mode" to be completing the escape room without checkpoints. It is not easy but I managed to do it. I do not recommend attempting this, *especially* if it is your first time.
+Consider "expert mode" to be completing the escape room without checkpoints. I do not recommend attempting this, *especially* if it is your first time.
 
 # Time Limit
 
