@@ -2,7 +2,7 @@
 title: "The Reason why You're not Improving"
 desc: "It took me 5 years to beat my first extreme demon, here's what I should of done differently."
 image: https://i.imgur.com/xy0AOH2.jpg
-date: 2022-02-27
+date: 2022-03-01
 tags:
     - featured
     - guide
