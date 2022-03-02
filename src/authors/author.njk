@@ -57,9 +57,9 @@ eleventyComputed:
 
 <h1 class="title" style="margin-bottom: 20px;">Latest Posts</h1>
 
-{% set post = collections.posts | getAuthorPosts(author.key) | head(3) %}
+{# {% set post = paged.posts | getAuthorPosts(author.key) %} #}
 <div class="grid-3">
-{% for post in post %}
+{% for post in collections.posts | getAuthorPosts(author.key) | head(3) %}
 {% include "partials/post-list.njk" %}
 {% endfor %}
 </div>
