@@ -4,7 +4,6 @@ desc: "Today we will figure uot one of the most asked questions in Geometry Dash
 image: https://i.imgur.com/5FaXj5a.jpg
 date: 2022-03-03
 tags:
-    - featured
     - opinion
 author: esmik
 ---
