@@ -13,7 +13,7 @@ I made a [Geometry Dash escape room](https://youtu.be/Ri6OccFOJQg) and I challen
 
 # Get The Level
 
-You can find the level on my profile [CreatorMoldy]() or by directly searching its ID, which is [78581694](https://gdbrowser.com/78581694). You might also be able to find it just by searching its name, which is "Escape Room." You will need to make a copy of the level to use its checkpoints. The level is free to copy.
+You can find the level on my profile [CreatorMoldy](https://gdbrowser.com/u/CreatorMoldy) or by directly searching its ID, which is [78581694](https://gdbrowser.com/78581694). You might also be able to find it just by searching its name, which is "Escape Room." You will need to make a copy of the level to use its checkpoints. The level is free to copy.
 
 # Refresh Rate
 
