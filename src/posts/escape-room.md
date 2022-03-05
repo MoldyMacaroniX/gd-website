@@ -2,15 +2,18 @@
 title: "The Hardest Geometry Dash Escape Room"
 desc: "made a Geometry Dash escape room and I challenge you to complete it. It takes about 1-2 hours to complete."
 image: https://media.discordapp.net/attachments/392087938239954950/944330123384070224/escape_room_png.png?width=1202&height=676
-date: 2022-03-01
+date: 2022-03-05
 tags:
     - featured
     - video
 author: moldymacaronix
-alert: The escape room is not yet uploaded as I am fixing bugs. I will update this article once it is released.
 ---
 
 I made a [Geometry Dash escape room](https://youtu.be/Ri6OccFOJQg) and I challenge you to complete it. It can take anywhere between 1-2 hours to complete, depending on your puzzle-solving ability. Figuring out the puzzles is challenging but also a lot of fun. In this article, I will teach you how you can play this escape room for yourself. Since this type of level is not necessarily what Geometry Dash was made for, there are some things you got to do.
+
+# Get The Level
+
+You can find the level on my profile [CreatorMoldy]() or by directly searching its ID, which is [78581694](https://gdbrowser.com/78581694). You might also be able to find it just by searching its name, which is "Escape Room." You will need to make a copy of the level to use its checkpoints. The level is free to copy.
 
 # Refresh Rate
 
