@@ -54,9 +54,11 @@ body {
 }
 
 .container {
-    padding: 0 25px;
+    /* padding: 0 25px; */
+    padding: 0 5%;
     margin: auto;
-    max-width: 1400px;
+    /* max-width: 1400px; */
+    max-width: 1550px;
 }
 
 img, video, iframe {
@@ -76,6 +78,22 @@ a {
 
 ul li {
     list-style-type: square;
+}
+
+/* ASPECT RATIO */
+
+.aspect {
+    position: relative !important;
+    padding-bottom: 56.25% !important; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+}
+
+.aspect img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
 }
 
 /* NAVBAR */
@@ -1259,9 +1277,9 @@ hr.endpost:after {
     .col {
         width: 100%;
     }
-    .post-preview-big img {
+    /* .post-preview-big img {
         height: 175px !important;
-    }
+    } */
     .post-preview.post-preview-big h1 {
         font-size: 1.5rem
     }

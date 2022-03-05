@@ -1,6 +1,6 @@
 {% for post in collections[ "featured" ] | reverse | head(5) %}
 <div class="post-preview post-preview-wrap">
-    {% if post.data.image %}<a href="{{ post.url | url }}" class="post-preview-wrap-img"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></a>{% endif %}
+    {% if post.data.image %}<a href="{{ post.url | url }}" class="post-preview-wrap-img"><div class="aspect"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></div></a>{% endif %}
     <div class="post-preview-wrap-content">
         <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
         {% for tag in post.data.tags %}

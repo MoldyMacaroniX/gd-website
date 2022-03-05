@@ -48,7 +48,7 @@ layout: layouts/main.njk
     <div class="grid-2">
         {% if previousPost %}
         <div class="post-preview post-preview-wrap">
-            <a href="{{ previousPost.url }}" class="post-preview-wrap-img"><img src="{{ previousPost.data.image }}" alt="{{ previousPost.data.title }}" loading="lazy"></a>
+            <a href="{{ previousPost.url }}" class="post-preview-wrap-img"><div class="aspect"><img src="{{ previousPost.data.image }}" alt="{{ previousPost.data.title }}" loading="lazy"></div></a>
             <div class="post-preview-wrap-content">
                 <h1><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></h1>
                 {% if previousPost.data.tags %}
@@ -64,7 +64,7 @@ layout: layouts/main.njk
         {% endif %}
         {% if nextPost %}
         <div class="post-preview post-preview-wrap">
-            <a href="{{ nextPost.url }}" class="post-preview-wrap-img"><img src="{{ nextPost.data.image }}" alt="{{ nextPost.data.title }}" loading="lazy"></a>
+            <a href="{{ nextPost.url }}" class="post-preview-wrap-img"><div class="aspect"><img src="{{ nextPost.data.image }}" alt="{{ nextPost.data.title }}" loading="lazy"></div></a>
             <div class="post-preview-wrap-content">
                 <h1><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></h1>
                 {% if nextPost.data.tags %}

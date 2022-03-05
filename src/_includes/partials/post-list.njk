@@ -1,5 +1,5 @@
 <div class="post-preview">
-    {% if post.data.image %}<a href="{{ post.url | url }}"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></a>{% endif %}
+    {% if post.data.image %}<a href="{{ post.url | url }}"><div class="aspect"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></div></a>{% endif %}
     <h1><a href="{{ post.url | url }}">{{ post.data.title }}</a></h1>
     {% if post.data.tags %}
     {% for tag in post.data.tags %}
