@@ -7,6 +7,7 @@ tags:
     - featured
     - video
 author: moldymacaronix
+alert: The escape room is not yet uploaded as I am fixing bugs. I will update this article once it is released.
 ---
 
 I made a [Geometry Dash escape room](https://youtu.be/Ri6OccFOJQg) and I challenge you to complete it. It can take anywhere between 1-2 hours to complete, depending on your puzzle-solving ability. Figuring out the puzzles is challenging but also a lot of fun. In this article, I will teach you how you can play this escape room for yourself. Since this type of level is not necessarily what Geometry Dash was made for, there are some things you got to do.

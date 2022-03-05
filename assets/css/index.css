@@ -685,7 +685,7 @@ a.footer-item {
     content: ",";
 }
 
-.post-header .post-tag:last-child::after {
+.post-header .post-tag:last-of-type::after {
     content: "";
 }
 

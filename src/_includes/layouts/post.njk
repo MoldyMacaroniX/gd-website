@@ -91,3 +91,19 @@ layout: layouts/main.njk
 </div>
 <a href="/posts/2/" class="button button-full button-big button-wide" style="margin-bottom: 0;">Browse More Posts</a>
 {% endif %}
+
+{% if post %}
+<script>
+function cb(response) {
+    // document.getElementById('viewcount').innerText = response.value;
+    var x = document.getElementsByClassName('viewcount');
+
+    for(var i = 0; i < x.length; i++) {
+    var item = x[i];
+
+    item.innerText = response.value;
+    }
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/www.dashword.net/{{ page.fileSlug }}?callback=cb"></script>
+{% endif %}
