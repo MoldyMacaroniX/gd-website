@@ -1262,7 +1262,7 @@ hr.endpost:after {
         font-size: 2.75rem;
     }
     .post-preview-wrap h1 {
-        font-size: 1.25rem;
+        font-size: 1.25rem !important;
         font-weight: bold;
         transition: color 0.25s ease;
         margin-top: 10px;
@@ -1281,7 +1281,11 @@ hr.endpost:after {
         height: 175px !important;
     } */
     .post-preview.post-preview-big h1 {
-        font-size: 1.5rem
+        font-size: 1.65rem
+    }
+
+    .post-preview h1 {
+        font-size: 1.65rem;
     }
     
     .post-preview.post-preview-big p.meta {
