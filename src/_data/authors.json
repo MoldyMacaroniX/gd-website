@@ -158,8 +158,19 @@
     		"name":"Adya",
     		"bio": "I'm a Moroccan 17 year old that has been playing gd for 6 years.",
     		"photo":"https://yt3.ggpht.com/E78iw_kY4X64Zl56mPEQ1zVzSPfToMQggvEDNJaZtdM5mcc9DdF0Y_53ZAVuS6tyS20LJqsN=s176-c-k-c0x00ffffff-no-rj",
-    		"twitter":"https://twitter.com/AdyaGD",
+    		"twitter":"AdyaGD",
     		"gdbrowser":"Adya",
-		"verified": "true"
+			"verified": "true"
+	},
+	{
+		"key":"fr0stedm4c",
+		"name":"Fr0stedM4c",
+		"bio": "Beat it or you dont need it...",
+		"photo":"https://i.imgur.com/MUupQo9.png",
+		"youtube":"UCQyHS0gyRljnI5VzDo3cEyg",
+		"twitch":"fr0stedm4c",
+		"twitter":"Fr0stedM4c",
+		"discord":"T7aj9Ymnre",
+		"gdbrowser":"Fr0stedM4c"
 	}
 ]
