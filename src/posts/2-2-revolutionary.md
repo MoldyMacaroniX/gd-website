@@ -4,6 +4,7 @@ desc: "Will Geometry Dash update 2.2 be revolutionary because of the game changi
 image: https://i.imgur.com/v8HdMSZ.png
 date: 2022-03-06
 tags:
+    - video
     - opinion
 author: fr0stedm4c
 ---
@@ -31,5 +32,13 @@ Creating will also be a crucial part of the game that will change because of the
 # The Unlikely Possibility
 
 What if the update isn't revolutionary? Will the community die? Will RopTop make more updates? As I said, this is very unlikely and will probably never happen, but if it did, the majority of the community would quit and regret waiting for the update out of frustration and sadness. The game would be dead after the impact of this.
+
+# Conclusion
+
+This article is based on the following video I made about the topic.
+
+{% video %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o1E3EHlrHnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endvideo %}
 
 In conclusion, Geometry Dash update 2.2 will be revolutionary and will bring joy to the community after a long five years of waiting.
