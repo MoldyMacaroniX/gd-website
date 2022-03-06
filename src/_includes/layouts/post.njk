@@ -123,7 +123,7 @@ layout: layouts/main.njk
 <a href="/posts/2/" class="button button-full button-big button-wide" style="margin-bottom: 0;">Browse More Posts</a>
 {% endif %}
 
-{% if post %}
+{# {% if post %}
 <script>
 function cb(response) {
     // document.getElementById('viewcount').innerText = response.value;
@@ -137,4 +137,4 @@ function cb(response) {
 }
 </script>
 <script async src="https://api.countapi.xyz/hit/www.dashword.net/{{ page.fileSlug }}?callback=cb"></script>
-{% endif %}
+{% endif %} #}

@@ -58,7 +58,7 @@ layout: layouts/base.njk
                         </div>
                         <div class="col">
                             <span class="name"><a href="/authors/{{ myAuthor.key }}/">{{ myAuthor.name }}</a> {% if myAuthor.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if myAuthor.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ myAuthor.twitter }}" class="follow">Follow</a></span>{% endif %}
-                            {% if date %}<span class="print">{{ page.date | readableDate }}{% if tags %} · {% for tag in tags %}<a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a> {% endfor %}{% endif %} · <span class="viewcount">0</span> views</span>{% endif %}
+                            {% if date %}<span class="print">{{ page.date | readableDate }}{% if tags %} · {% for tag in tags %}<a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a> {% endfor %}{% endif %}<!-- · <span class="viewcount">0</span> views</span>-->{% endif %}
                         </div>
                     </div>
                 </div>
