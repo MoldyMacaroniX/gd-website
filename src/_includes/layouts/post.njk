@@ -34,7 +34,6 @@ layout: layouts/main.njk
 </div>
     {% if post %}
     <button href="/posts/2/" class="button button-big button-wide" style="margin-bottom: 0;" onclick="showHideComments()"><span class="ri-message-2-line" style="transform: translateY(2px); display: inline-block; font-size: 1.1em;"></span> <span id="commentbtn">Show Comments</span></button>
-    {% endif %}
 
     <div class="comments" id="comments" style="margin-top: 25px; display: none;">
         
@@ -61,6 +60,7 @@ layout: layouts/main.njk
         }
     }
     </script>
+    {% endif %}
 
 <hr class="endpost" style="margin-bottom: 15px; margin-top: 55px;">
 
