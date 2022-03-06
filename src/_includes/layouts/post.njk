@@ -31,9 +31,39 @@ layout: layouts/main.njk
 {{ content | safe }}
 
     {% if post %}</div>{% endif %}
+</div>
+    {% if post %}
+    <button href="/posts/2/" class="button button-big button-wide" style="margin-bottom: 0;" onclick="showHideComments()"><span class="ri-message-2-line" style="transform: translateY(2px); display: inline-block; font-size: 1.1em;"></span> <span id="commentbtn">Show Comments</span></button>
+    {% endif %}
+
+    <div class="comments" id="comments" style="margin-top: 25px; display: none;">
+        
+        <script src="https://utteranc.es/client.js"
+        repo="MoldyMacaroniX/gd-website"
+        issue-term="pathname"
+        label="comments"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
+        
+    </div>
+
+    <script>
+    function showHideComments() {
+        var x = document.getElementById("comments");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            document.getElementById("commentbtn").innerHTML = "Hide Comments";
+        } else {
+            x.style.display = "none";
+            document.getElementById("commentbtn").innerHTML = "Show Comments";
+        }
+    }
+    </script>
 
 <hr class="endpost" style="margin-bottom: 15px; margin-top: 55px;">
-</div>
+
 {% if post %}
 {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -43,6 +73,7 @@ layout: layouts/main.njk
     {% if partnerGDCS %}
     {% include "partials/gdcs/gdcs-panel.njk" %}
     {% endif %}
+
 
     <h1 class="title">Up Next</h1>
     <div class="grid-2">
