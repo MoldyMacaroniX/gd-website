@@ -1127,6 +1127,7 @@ form .custom-file-upload input[type="file"] {
     display: block;
     font-weight: bold;
     transition: color 0.25s ease;
+    text-transform: capitalize;
 }
 
 .search-result p a:hover {
@@ -1139,6 +1140,7 @@ form .custom-file-upload input[type="file"] {
     margin-top: 10px;
     display: block;
     font-weight: normal;
+    text-transform: none;
 }
 
 .search-result p.result-desc a:hover {
