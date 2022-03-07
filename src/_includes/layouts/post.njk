@@ -64,7 +64,7 @@ layout: layouts/main.njk
 
 <hr class="endpost" style="margin-bottom: 15px; margin-top: 55px;">
 
-{% if post %}
+{% if post and not updates %}
 {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.posts | getNextCollectionItem(page) %}
 <div class="suggested-posts">

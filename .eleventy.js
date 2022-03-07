@@ -10,8 +10,10 @@ module.exports = (config) => {
   config.addFilter('readableDate', require('./lib/filters/readableDate'));
 
   config.addCollection('posts', require('./lib/collections/posts'));
+  config.addCollection('updates', require('./lib/collections/updates'));
   config.addCollection('tagList', require('./lib/collections/tagList'));
   config.addCollection('pagedPosts', require('./lib/collections/pagedPosts'));
+  config.addCollection('pagedUpdates', require('./lib/collections/pagedUpdates'));
   config.addCollection('pagedPostsByTag', require('./lib/collections/pagedPostsByTag'));
 
   // Get the first `n` elements of a collection.

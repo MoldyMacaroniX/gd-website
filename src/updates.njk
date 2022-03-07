@@ -1,0 +1,19 @@
+---
+title: Updates
+desc: All website updates.
+layout: layouts/main.njk
+pagination:
+    data: collections.pagedUpdates
+    size: 1
+    alias: paged
+permalink: "/updates/{% if paged.number > 1 %}{{ paged.number }}/{% endif %}index.html"
+---
+
+<h1 class="title" style="margin-bottom: 20px;">All Updates</h1>
+<div class="grid-3">
+    {% include "partials/post-grid.njk" %}
+</div>
+
+{% if collections.updates.length > site.paginate %}
+{% include "partials/paginator.njk" %}
+{% endif %}

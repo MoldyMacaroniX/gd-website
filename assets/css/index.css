@@ -1026,7 +1026,7 @@ form input, form label, form textarea, form .helptxt {
 }
 
 form input, form textarea {
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
     width: 100%;
     margin: 10px 0px;
@@ -1058,6 +1058,91 @@ form .helptxt a {
 
 form .custom-file-upload input[type="file"] {
     display: none;
+}
+
+/* SEARCH */
+
+.search {
+    display: none;
+    position: fixed;
+    top: 0;
+    padding: 5%;
+    z-index: 1000;
+    opacity: 1;
+    transform: translateY(-110%);
+    transition: transform 0.25s ease;
+    width: 100%;
+    pointer-events: none;
+    overflow: auto;
+    height: 100vh;
+}
+
+.search-bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    z-index: 950;
+}
+
+.search #app {
+    max-width: 1000px;
+    background-color: var(--bg);
+    margin: auto;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    overflow: auto;
+    max-height: 100%;
+    cursor: default;
+    pointer-events: all;
+    position: relative;
+}
+
+.close-search {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.search-result p a {
+    font-size: 1.5rem;
+    /* text-decoration: underline; */
+    display: block;
+    font-weight: bold;
+    transition: color 0.25s ease;
+}
+
+.search-result p a:hover {
+    color: var(--primary);
+}
+
+.search-result p.result-desc a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-weight: normal;
+}
+
+.search-result p.result-desc a:hover {
+    color: inherit;
 }
 
 /* PERCENT */
@@ -1167,6 +1252,21 @@ form .custom-file-upload input[type="file"] {
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.25s ease;
+}
+
+.menu-items {
+    height: calc(100vh - 40px);
+    overflow: auto;
+}
+
+.menu-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-icons .menu-item {
+    width: fit-content;
+    text-align: center;
 }
 
 .menu .menu-item {

@@ -1,0 +1,7 @@
+{
+    "layout": "layouts/post.njk",
+    "article": "true",
+    "post": "true",
+    "updates":"true",
+    "image":"https://i.ytimg.com/vi/ipK7vQ8gEZw/maxresdefault.jpg"
+}

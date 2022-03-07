@@ -46,11 +46,17 @@
     <!-- MENU -->
     <div class="menu" id="menu">
         <span class="menu-icon ri-close-line" onclick="closeMobile()"></span>
-        <a href="/" class="menu-item">Home</a>
-        <a href="/posts/" class="menu-item">Articles</a>
-        <a href="/categories/" class="menu-item">Categories</a>
-        <a href="/authors/" class="menu-item">Authors</a>
-        <span class="menu-item btn-toggle-2"><span class="ri-moon-line btn-toggle-mobile"></span></span>
+        <div class="menu-items">
+            <a href="/" class="menu-item">Home</a>
+            <a href="/posts/" class="menu-item">Articles</a>
+            <a href="/categories/" class="menu-item">Categories</a>
+            <a href="/authors/" class="menu-item">Authors</a>
+            <div class="menu-icons">
+            <span class="menu-item" onclick="openSearch()"><span class="ri-search-line"></span></span>
+            <span class="menu-item btn-toggle-2"><span class="ri-moon-line btn-toggle-mobile"></span></span>
+            <a class="menu-item" href="/handbook/"><span class="ri-question-line"></span></a>
+            </div>
+        </div>
     </div>
     <div class="menu-bg" id="menu-bg" onclick="closeMobile()"></div>
     <!-- END MENU -->
@@ -76,6 +82,7 @@
             </div>
             <div class="right">
                 <div class="socials mmobile" style="margin-right: 5px;">
+                    <span class="ri-search-line" onclick="openSearch()"></span>
                     <span class="ri-moon-line btn-toggle"></span>
                     <a href="/handbook/" class="ri-question-line smobile"></a>
                     <!--<a href="#" class="ri-instagram-fill"></a>
@@ -155,6 +162,82 @@
                 btn3.classList.add("ri-moon-line");
             }
         }
+    </script>
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    <div class="search-bg" id="search-menu-bg" onclick="closeSearch()"></div>
+    <div class="search" id="search-menu">
+        <div id="app">
+            <span class="ri-close-fill close-search" onclick="closeSearch();"></span>
+            <h1 class="title" style="margin-bottom: 20px;">Search</h1>
+            <form onsubmit="return false">
+            <input type="search" v-model="term" placeholder="Search keywords here..."> <button @click="search" class="button button-big button-full button-wide" onclick="decodeHTML();">Search</button>
+            </form>
+            <div v-if="results">
+                <h1 class="title" style="margin-bottom: 20px; margin-top: 25px;">Results</h1>
+                <div class="search-results" id="results">
+                    <div v-for="result in results" class="search-result">
+                        <p><a :href="result.url"><span v-html="result.title"></span></a></p>
+                        <p class="result-desc"><a :href="result.url"><span v-html="result.content"></span></a></p>
+                    </div>
+                </div>
+                <div v-if="noResults" class="article">
+                <p>Sorry, no results were found. You can try the following.</p>
+                <ul>
+                    <li>Make sure all search terms are spelled correctly.</li>
+                    <li>Try searching keywords (such as "2.2").</li>
+                    <li>Browse the <a href="/categories/">categories</a>.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+    const app = new Vue({
+        el:'#app',
+        data:{
+            docs:null,
+            idx:null,
+            term:'',
+            results:null
+        },
+        async created() {
+            let result = await fetch('/index.json');
+            docs = await result.json();
+            // assign an ID so it's easier to look up later, it will be the same as index
+            this.idx = lunr(function () {
+                this.ref('id');
+                this.field('title');
+                this.field('content');
+                this.field('author');
+                docs.forEach(function (doc, idx) {
+                    doc.id = idx;
+                    this.add(doc); 
+                }, this);
+            });
+            this.docs = docs;
+        },
+        computed: {
+            noResults() {
+                return this.results.length === 0;
+            }
+        },
+        methods:{
+            search() {
+                console.log('search', this.term);
+                let results = this.idx.search(this.term);
+                // we need to add title, url from ref
+                results.forEach(r => {
+                    r.title = this.docs[r.ref].title;
+                    r.url = this.docs[r.ref].url;
+                    r.content = this.docs[r.ref].content;
+                });
+                this.results = results;
+            }
+        }
+    });
     </script>
 
     {{ content | safe }}
@@ -242,6 +325,7 @@
 
     <!-- SCRIPTS -->
     <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/he.js"></script>
     <!-- END SCRIPTS -->
     
 </body>

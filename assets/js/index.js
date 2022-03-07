@@ -38,3 +38,30 @@ function textToClipboard (text) {
     document.execCommand("copy");
     document.body.removeChild(dummy);
 }
+
+/*************************************/
+// Search Menu
+/*************************************/
+
+var search = document.getElementById("search-menu");
+var searchBg = document.getElementById("search-menu-bg");
+
+function openSearch() {
+    document.body.style.overflow = "hidden";
+    search.style.display = "block";
+    searchBg.style.display = "block";
+    setTimeout(function(){
+        search.style.transform = "translateY(0%)";
+        searchBg.style.opacity = "1";
+    }, 10);
+}
+
+function closeSearch() {
+    document.body.style.overflow = "unset";
+    search.style.transform = "translateY(-110%)";
+    searchBg.style.opacity = "0";
+    setTimeout(function(){
+        search.style.display = "none";
+        searchBg.style.display = "none";
+    }, 250);
+}
