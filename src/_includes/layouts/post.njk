@@ -138,3 +138,7 @@ function cb(response) {
 </script>
 <script async src="https://api.countapi.xyz/hit/www.dashword.net/{{ page.fileSlug }}?callback=cb"></script>
 {% endif %} #}
+
+{% if articleForm %}{% include "partials/article-form.njk" %}{% endif %}
+
+{% if authorForm %}{% include "partials/author-form.njk" %}{% endif %}

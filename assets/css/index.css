@@ -1017,6 +1017,49 @@ hr.endpost:after {
     height: fit-content;
 }
 
+/* FORM */
+
+form input, form label, form textarea, form .helptxt {
+    font: var(--paragraph);
+    font-size: 1.1rem;
+    display: block;
+}
+
+form input, form textarea {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: 1px solid var(--txt-lighter);
+    border-radius: var(--border-radius);
+    color: var(--txt-light);
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 1.45rem;
+}
+
+form .helptxt {
+    color: var(--primary);
+    margin-bottom: 25px;
+}
+
+form .helptxt a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+form .custom-file-upload input[type="file"] {
+    display: none;
+}
+
 /* PERCENT */
 
 .percent {
