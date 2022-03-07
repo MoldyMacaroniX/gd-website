@@ -77,7 +77,10 @@ layout: layouts/main.njk
 
     <h1 class="title">Up Next</h1>
     <div class="grid-2">
-        {% if previousPost %}
+
+        {% if not previousPost %}
+        {% set previousPost = collections.posts[2] %}
+        {% endif %}
         <div class="post-preview post-preview-wrap">
             <a href="{{ previousPost.url }}" class="post-preview-wrap-img"><div class="aspect"><img src="{{ previousPost.data.image }}" alt="{{ previousPost.data.title }}" loading="lazy"></div></a>
             <div class="post-preview-wrap-content">
@@ -92,8 +95,10 @@ layout: layouts/main.njk
                 <p class="meta">{% if previousPost.data.author %}{% set myAuthor = authors | getAuthor(previousPost.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %} · {% endif %}{{ previousPost.data.page.date | readableDate}}</p>
             </div>
         </div>
+
+        {% if not nextPost %}
+        {% set nextPost = collections.posts[0] %}
         {% endif %}
-        {% if nextPost %}
         <div class="post-preview post-preview-wrap">
             <a href="{{ nextPost.url }}" class="post-preview-wrap-img"><div class="aspect"><img src="{{ nextPost.data.image }}" alt="{{ nextPost.data.title }}" loading="lazy"></div></a>
             <div class="post-preview-wrap-content">
@@ -108,7 +113,7 @@ layout: layouts/main.njk
                 <p class="meta">{% if nextPost.data.author %}{% set myAuthor = authors | getAuthor(nextPost.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %} · {% endif %}{{ nextPost.data.page.date | readableDate}}</p>
             </div>
         </div>
-        {% endif %}
+
     </div>
 </div>
 {% endif %}
