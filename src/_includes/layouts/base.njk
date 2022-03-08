@@ -164,6 +164,7 @@
         }
     </script>
 
+    <!-- SEARCH -->
     <script src="https://unpkg.com/lunr/lunr.js"></script>
     <div class="search-bg" id="search-menu-bg" onclick="closeSearch()"></div>
     <div class="search" id="search-menu">
@@ -186,13 +187,12 @@
                 <ul>
                     <li>Make sure all search terms are spelled correctly.</li>
                     <li>Try searching keywords (such as "2.2").</li>
-                    <li>Browse the <a href="/categories/">categories</a>.</li>
+                    <li>If you are looking for posts by an author, try searching their author ID.</li>
                 </ul>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
     const app = new Vue({
@@ -239,6 +239,7 @@
         }
     });
     </script>
+    <!-- END SEARCH -->
 
     {{ content | safe }}
 
