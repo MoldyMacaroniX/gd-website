@@ -15,6 +15,7 @@ Read these if you want to submit your own articles to be published on this websi
 * [Working with images](/working-with-images/)
 * [Citing sources](/citing-sources/)
 * [Syntax and components](/syntax-components/)
+* [Writing tips](/writing-tips/)
 
 # Editor Handbook
 
