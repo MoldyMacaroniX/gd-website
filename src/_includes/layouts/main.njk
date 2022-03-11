@@ -89,11 +89,11 @@ layout: layouts/base.njk
 {% endif %}
 
 <!-- MAIN LAYOUT -->
-<div class="container main">
+<div class="container main" id="sidebar-wrapper">
     <div class="cols">
         {% if post %}
-        <div class="postbar" style="margin-top: var(--n-nav-height); margin-bottom: -25px">
-            <div class="sticky" style="position: sticky;" data-sticky-2="true">
+        <div class="postbar" id="postbar">
+            <div class="sticky" style="position: sticky;" id="postbar-inner">
                 <div class="post-socials">
                     <span style="font-weight: bold;">Share</span>
                     <a href="https://twitter.com/intent/tweet?text={{ title }}&url={{ site.url }}{{ page.url }}" class="ri-twitter-fill" target="_blank" rel="noopener"></a>
@@ -113,8 +113,8 @@ layout: layouts/base.njk
         <div class="col" style="min-width: 0">
             {{ content | safe }}
         </div>
-        <div class="sidebar" style="margin-top: var(--n-nav-height); margin-bottom: -25px">
-            <div class="sticky" data-sticky="true">
+        <div class="sidebar" id="sidebar">
+            <div class="sticky" id="sidebar-inner">
                 <h1 class="title">Featured</h1>
                 
                 {# {% set flength = collections[ "featured" ].length - 1 %}

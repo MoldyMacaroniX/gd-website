@@ -328,6 +328,26 @@
     <script src="/assets/js/index.js"></script>
     <script src="/assets/js/he.js"></script>
     <script type="text/javascript" src="/assets/js/sidebar.js"></script>
+    <script>
+    var sidebar = new StickySidebar('#sidebar', {
+        containerSelector: '#sidebar-wrapper',
+        innerWrapperSelector: '#sidebar-inner',
+        topSpacing: 70,
+        bottomSpacing: 20,
+        minWidth: 700
+    });
+    </script>
+    {% if post %}
+    <script>
+    var postbar = new StickySidebar('#postbar', {
+        containerSelector: '#sidebar-wrapper',
+        innerWrapperSelector: '#postbar-inner',
+        topSpacing: 70,
+        bottomSpacing: 20,
+        minWidth: 700
+    });
+    </script>
+    {% endif %}
     <!-- END SCRIPTS -->
     
 </body>
