@@ -89,7 +89,7 @@ layout: layouts/base.njk
 {% endif %}
 
 <!-- MAIN LAYOUT -->
-<div class="container main">
+<div class="container main s-main">
     <div class="cols">
         {% if post %}
         <div class="postbar">
@@ -113,9 +113,27 @@ layout: layouts/base.njk
         <div class="col" style="min-width: 0">
             {{ content | safe }}
         </div>
-        <div class="sidebar">
-            <div class="sticky">
+        <div class="sidebar .s-sidebar" style="margin-top: var(--n-nav-height); margin-bottom: -25px">
+            <div class="sticky .s-sidebar-inner" data-sticky="true">
                 <h1 class="title">Featured</h1>
+                
+                {# {% set flength = collections[ "featured" ].length - 1 %}
+                {% set fpost = collections[ "featured" ][flength] %}
+                <div class="post-preview post-preview-wrap">
+                    <a href="{{ fpost.url }}" class="post-preview-wrap-img"><div class="aspect"><img src="{{ fpost.data.image }}" alt="{{ fpost.data.title }}" loading="lazy"></div></a>
+                    <div class="post-preview-wrap-content">
+                        <h1><a href="{{ fpost.url }}">{{ fpost.data.title }}</a></h1>
+                        {% if fpost.data.tags %}
+                        {% for tag in fpost.data.tags %}
+                            <a href="/categories/{{ tag | slug }}" class="post-tag">{{ tag }}</a>
+                        {% endfor %}
+                        {% else %}
+                        <div style="height: 10px;"></div>
+                        {% endif %}
+                        <p class="meta">{% if fpost.data.author %}{% set myAuthor = authors | getAuthor(fpost.data.author) %}{% for myAuthor in myAuthor %}<a href="/authors/{{ myAuthor.key }}/" class="author-name">{{ myAuthor.name }}</a> {% endfor %} · {% endif %}{{ fpost.data.page.date | readableDate}}</p>
+                    </div>
+                </div> #}
+
                 {% include "partials/tag-list.njk" %}
                 <a href="/categories/featured/" class="button button-full button-big button-wide" style="margin-top: 10px; margin-bottom: 0;">View More</a>
             </div>

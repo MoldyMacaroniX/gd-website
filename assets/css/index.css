@@ -100,6 +100,7 @@ ul li {
 
 :root {
     --nav-height: 70px;
+    --n-nav-height: -70px;
 }
 
 .navbar-displace {
@@ -433,9 +434,11 @@ ul li {
 
 .sticky {
     position: sticky;
-    top: var(--nav-height);
-    max-height: calc(100vh - var(--nav-height) - 25px);
-    overflow-y: auto;
+    padding-top: var(--nav-height);
+    padding-bottom: 25px;
+    /* top: var(--nav-height); */
+    /* max-height: calc(100vh - var(--nav-height) - 25px); */
+    /* overflow-y: auto; */
 }
 
 h1.title {
@@ -1390,10 +1393,10 @@ form .custom-file-upload input[type="file"] {
     .about-img {
         display: none;
     }
-    .sticky {
+    /* .sticky {
         position: relative;
         top: 0;
-    }
+    } */
     .post-socials {
         flex-direction: row;
     }
