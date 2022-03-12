@@ -20,6 +20,14 @@ This is a very long sentence, or what is called a "run-on" sentence. To fix it, 
 
 The following (mostly unedited) excerpt from a submitted article shows too much repetition.
 
+> In 2021, Geometry Dash YouTube content went through lots of trends throughout the year.
+
+Notice the section "went through lots of trends throughout the year." This is directly repeating itself as well as repeating "in 2021." Simply fix this by removing the repetition.
+
+> In 2021, Geometry Dash YouTube content went through lots of trends.
+
+<!-- The following (mostly unedited) excerpt from a submitted article shows too much repetition.
+
 > Geometry Dash update 2.2 will be a revolutionary update because of the amazing features being added to the game, like the new camera triggers and two new gamemodes (swing copter and platformer mode).
 
 First, both "the game" is a repeat of "Geometry Dash" (both bolded below).
@@ -36,7 +44,7 @@ Similarly, the "swing copter and platformer mode" is a repeat of "two new gamemo
 
 Simply remove one of the bolded instances above. In this case, it is probably best to keep the second bold instance ("swing copter and platformer mode") as it contains the most detail.
 
-> Geometry Dash update 2.2 will be a revolutionary update because of the amazing features being added, like the new camera triggers, swing copter, and platformer mode.
+> Geometry Dash update 2.2 will be a revolutionary update because of the amazing features being added, like the new camera triggers, swing copter, and platformer mode. -->
 
 # Uncertainty
 

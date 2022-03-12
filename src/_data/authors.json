@@ -183,5 +183,15 @@
 		"twitch":"TheStupidDodo",
 		"discord":"Pnt5dcmMjJ",
 		"gdbrowser":"TheStupidDodo"
+	},
+	{
+		"key":"kylu",
+		"name":"Kylu",
+		"bio": "Experienced teenage Geometry Dash player that loves writing and has big goals in life.",
+		"photo":"https://i.imgur.com/78tZSZ7.jpeg",
+		"youtube":"UCTQtP4DP5TBy0oOi2BnsJnA",
+		"twitch":"kylarc621",
+		"twitter":"Kylu15822370",
+		"gdbrowser":"Kylu"
 	}
 ]
