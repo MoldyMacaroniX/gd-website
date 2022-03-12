@@ -48,3 +48,5 @@ This website is very minimal right now but will be expanded on over time.
 Feel free to use this as a base/template for your own projects. Credit is not required but very much appreciated.
 
 One thing to note is that this website was never designed to be a base or template, so there are a lot of bad coding practices and inconsistencies that might make using it for your own projects harder.
+
+If that still doesn't scare you away, make sure you remove the Google Analytic and Utterances scripts (or replace them with your own).
