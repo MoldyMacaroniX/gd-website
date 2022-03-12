@@ -1,5 +1,5 @@
 ---
-title: "Stereo Madness, a Masterpiece in Game Design"
+title: "Stereo Madness: a Masterpiece in Game Design"
 desc: "Geometry Dash is a game that millions have played throughout the years. No matter for how long, you are likely well aware of Stereo Madness."
 image: https://i.ibb.co/HzGXfKH/Untitled-design-4.jpg
 date: 2022-03-12
