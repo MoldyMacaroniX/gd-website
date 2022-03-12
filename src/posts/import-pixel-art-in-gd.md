@@ -11,7 +11,7 @@ author: moldymacaronix
 Pixel art is relatively underdeveloped in Geometry Dash due to how tedious it is to make. Most of the time it requires tracing art from outside the game, which can be very boring due to the lack of creativity needed. Fortunately, as modding has advanced, there now exists tools to import pixel art into the game, making this otherwise tedious task a breeze.
 
 {% alert %}
-Tracing art has lead to issues in the past regarding copyright. Never use external art in your levels unless you are absolutely sure you are allowed to use the respective art.
+Tracing art has led to issues in the past regarding copyright. Never use external art in your levels unless you are absolutely sure you are allowed to use the respective art.
 {% endalert %}
 
 # The Program
