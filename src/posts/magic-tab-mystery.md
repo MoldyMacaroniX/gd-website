@@ -8,7 +8,7 @@ tags:
 author: moldymacaronix
 ---
 
-How the magic tab works still remains a mystery. However, using Colon's [level analyzer](), I believe I have come up with a *mostly accurate* list of how the magic tab works. It is also important to note that RobTop occasionally tweaks the magic tab, although never to a huge extent.
+How the magic tab works still remains a mystery. However, using Colon's [level analyzer](https://github.com/GDColon/GDBrowser), I believe I have come up with a *mostly accurate* list of how the magic tab works. It is also important to note that RobTop occasionally tweaks the magic tab, although never to a huge extent.
 
 # How The Magic Tab Works
 
