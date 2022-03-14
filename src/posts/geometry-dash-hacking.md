@@ -24,7 +24,9 @@ Because of the way that the game is [built and compiled](https://www.freecodecam
 
 # How hackers found a way modify the game
 
-Hackers found a "loophole" in the game. If they modify memory adresses from the app, they could change some functionalities of the game, like _no-clip_. This did not have many use cases though, as you cannot create or delete GUI or other game elements by memory editing. However, in November 2014, the 1.9 update came out, and just like that, the game was now on computers! Now that the game was on computers, hackers and modders could inject dll's into the game using modified game dll's and external libraries. This let modders and hackers create in game UI and game functionalities even faster and easier. This is also how the now extremely popular "Mega Hack V7" was created.
+Hackers found a "loophole" in the game. If they modify memory adresses from the app, they could change some functionalities of the game, like _no-clip_. This did not have many use cases though, as you cannot create or delete GUI or other game elements by memory editing.
+
+However, in November 2014, the 1.9 update came out, and just like that, the game was now on computers! Now that the game was on computers, hackers and modders could inject dll's into the game using modified game dll's and external libraries. This let modders and hackers create in game UI and game functionalities even faster and easier. This is also how the now extremely popular "Mega Hack V7" was created.
 
 # How mods are made
 
