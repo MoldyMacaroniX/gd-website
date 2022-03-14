@@ -1,5 +1,5 @@
 ---
-title: "How Geometry Dash Hacks Changed The Game."
+title: "How Geometry Dash Hacks Changed The Game"
 desc: "Geometry Dash used to be a simple standalone game but now is a heavily customizable experience!"
 image: https://i.ytimg.com/vi/pJ7NAaX8pD4/maxresdefault.jpg
 date: 2022-03-14
