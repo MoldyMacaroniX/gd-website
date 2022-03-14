@@ -30,10 +30,10 @@ Hackers found a "Loophole" in the game. If they modify memory adresses from the 
 
 To make a mod, you need four fundamental components. A coding environment (IDE, Text Editor, etc...), a compiler (LLVM & MSVC++ only), [Cocos Headers](https://github.com/HJFod/cocos-headers), [MinHook](https://github.com/HJFod/minhook), [GD.h](https://github.com/HJFod/gd.h). With these, you can do the basic setup with [this article](https://github.com/matcool/gd-mod-example/blob/master/Tutorial.md) by [Matcool](https://github.com/matcool).
 
-{.% alert %}
+{ .% alert % }
 Note:
 If you want to create your own Geometry Dash hack or mod fast, there is this awesome Git repository made by [Matcool](https://github.com/matcool), a fellow programmer _who also made the famous demon roulette_. It's super simple to setup with [VSCode](https://code.visualstudio.com/) and [MSVC++](https://aka.ms/vs/17/release/vc_redist.x86.exe)! Here is the link to this awesome [open source project](https://github.com/matcool/gd-mod-example)!
-{.% endalert %}
+{ .% endalert % }
 
 ## Conclusion
 
