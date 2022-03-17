@@ -22,7 +22,7 @@ Geometry Dash is a video game coded in C++ with a framework called [Cocos2d-x](h
 
 Because of the way that the game is [built and compiled](https://www.freecodecamp.org/news/c-compiler-explained-what-is-the-compiler-and-how-do-you-use-it/), the game is a .exe file, meaning that it's raw binary and there is no way that a human can read and write to the file. This is what us programmers call a "[standalone application](https://www.quora.com/What-is-a-standalone-application)."
 
-# How hackers found a way modify the game
+# How hackers found a way to modify the game
 
 Hackers found a "loophole" in the game. If they modify memory adresses from the app, they could change some functionalities of the game, like _no-clip_. This did not have many use cases though, as you cannot create or delete GUI or other game elements by memory editing.
 

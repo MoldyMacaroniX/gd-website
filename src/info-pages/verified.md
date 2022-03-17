@@ -17,6 +17,8 @@ In order to be eligible for the verified badge, you must meet at least one of th
 * Have a level featured in the map packs or gauntlets.
 * 50 or more creator points in-game.
 
+In addition, the respective platform above that meets the verified badge requirements must be involved in Geometry Dash.
+
 You also must be an author on this website — *we can't verify you if you don't have any articles!*
 
 # I meet the requirements, now what?

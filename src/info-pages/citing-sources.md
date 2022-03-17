@@ -82,7 +82,7 @@ Just because you think you know a fact doesn't mean it is common knowledge. In g
 
 While citing your sources is not mandatory (except for specific circumstances), doing so has some benefits.
 
-* If a fact you use is wrong, you will be less at blame. There are lots of common misconceptions around the community. Did you know that one of the facts used as examples above is wrong?
+* If a fact you use is wrong, you will be less at blame. There are lots of common misconceptions around the community. Did you know that some of the facts used as examples above are wrong?
 * It can provide extra context to the reader.
 * The article will generally be considered of a higher quality, which might increase its chances at being published or featured.
 
