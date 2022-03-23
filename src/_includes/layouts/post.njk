@@ -32,18 +32,36 @@ layout: layouts/main.njk
 
     {% if post %}</div>{% endif %}
 </div>
+
+    <!-- COMMENTS -->
     {% if post %}
     <button href="/posts/2/" class="button button-big button-wide" style="margin-bottom: 0;" onclick="showHideComments()"><span class="ri-message-2-line" style="transform: translateY(2px); display: inline-block; font-size: 1.1em;"></span> <span id="commentbtn">Show Comments</span></button>
 
     <div class="comments" id="comments" style="margin-top: 25px; display: none;">
         
-        <script src="https://utteranc.es/client.js"
+        {# <script src="https://utteranc.es/client.js"
         repo="MoldyMacaroniX/gd-website"
         issue-term="pathname"
         label="comments"
         theme="github-light"
         crossorigin="anonymous"
         async>
+        </script> #}
+
+        <script src="https://giscus.app/client.js"
+            data-repo="MoldyMacaroniX/gd-website"
+            data-repo-id="R_kgDOGxfc0Q"
+            data-category="Comments"
+            data-category-id="DIC_kwDOGxfc0c4COPOI"
+            data-mapping="pathname"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
         </script>
         
     </div>
@@ -61,6 +79,7 @@ layout: layouts/main.njk
     }
     </script>
     {% endif %}
+    <!-- END COMMENTS -->
 
 <hr class="endpost" style="margin-bottom: 15px; margin-top: 55px;">
 
