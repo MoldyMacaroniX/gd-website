@@ -172,7 +172,7 @@
             <span class="ri-close-fill close-search" onclick="closeSearch();"></span>
             <h1 class="title" style="margin-bottom: 20px;">Search</h1>
             <form onsubmit="return false">
-            <input type="search" v-model="term" placeholder="Search keywords here..."> <button @click="search" class="button button-big button-full button-wide" onclick="decodeHTML();">Search</button>
+            <input type="search" v-model="term" placeholder="Search keywords here..." id="searchfield"> <button @click="search" class="button button-big button-full button-wide">Search</button>
             </form>
             <div v-if="results">
                 <h1 class="title" style="margin-bottom: 20px; margin-top: 25px;">Results</h1>
@@ -226,15 +226,20 @@
         },
         methods:{
             search() {
+                //if () {}
                 console.log('search', this.term);
-                let results = this.idx.search(this.term);
-                // we need to add title, url from ref
-                results.forEach(r => {
-                    r.title = this.docs[r.ref].title;
-                    r.url = this.docs[r.ref].url;
-                    r.content = this.docs[r.ref].content;
-                });
-                this.results = results;
+                if (this.term != "") {
+                    let results = this.idx.search(this.term);
+                    // we need to add title, url from ref
+                    results.forEach(r => {
+                        r.title = this.docs[r.ref].title;
+                        r.url = this.docs[r.ref].url;
+                        r.content = this.docs[r.ref].content;
+                    });
+                    this.results = results;
+                } else {
+                    console.log("put something in the search field idot");
+                }
             }
         }
     });
