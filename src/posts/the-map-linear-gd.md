@@ -1,10 +1,10 @@
 ---
 title: "The Map: If Geometry Dash Was Linear"
 desc: 2.2 seems like it’s just around the corner and so far away at the same time. We just can’t wait anymore! So instead of making a theory about when I’m making a theory about what. Specifically stuff about "The Map", a giant Linear world with levels made by robtop, and more!
-image: https://static.wikia.nocookie.net/geometry-dash/images/7/7a/Update2.2MapPreview06.jpg/revision/latest
+image: https://static.wikia.nocookie.net/geometry-dash/images/7/7a/Update2.2MapPreview06.jpg
 tags: 
-    -news
-    -featured
+    - news
+    - featured
 author: dolphin_02
 ---
 
