@@ -1,7 +1,7 @@
 ---
 title: "The Map: If Geometry Dash Was Linear"
 desc: Geometry Dash 2.2 seems like it's just around the corner but also so far away at the same time. But one feature that especially makes the wait hard is the "Map," a linear world with levels made by RobTop.
-date: 2022-03-30
+date: 2022-04-02
 image: https://i.imgur.com/4L7wLUL.png
 tags: 
     - news
