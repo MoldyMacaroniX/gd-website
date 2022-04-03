@@ -22,8 +22,6 @@ The first area confirmed is a [grassy area](https://geometry-dash.fandom.com/wik
 
 The second area confirmed is an [icy area](https://geometry-dash.fandom.com/wiki/Update_2.2?file=Update2.2MapPreview04.png) with ice spikes, blue plants, and [monsters wandering around](https://discordapp.com/channels/398627612299362304/398627612299362306/938826494023721070). The monsters are seen going on the path and off the path. It would be cool if when the player runs into a monster while it's on the path, it starts a mini boss fight with mechanics similar to the enemy courses in the [New Super Mario Bros](https://www.mariowiki.com/Enemy_Course) series.
 
-![icy area](https://static.wikia.nocookie.net/geometry-dash/images/8/80/Update2.2MapPreview04.png)
-
 {% video %}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1B3FVvfC6AE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {% endvideo %}
