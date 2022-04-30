@@ -9,8 +9,7 @@ tags:
 author: c649007
 ---
 
-Slaughterhouse is one of the most popular level in Geometry Dash. It has a long history and it has one of the worst-experience in any extreme demons to date.
-But then, on April 9, 2022, a big thing has been come out.
+Slaughterhouse is one of the most popular level in Geometry Dash. It has a long history and it is one of the worst experiences in any extreme demons in the game.
 On the 9th of April 2022, TheZinkYT, a former Geometry Dash Demon List Moderators, raided a Getting Over It streamer on Twitch named GFMBadger after the latter asked to Badger "what does Geometry Dash look like today". GFMBadger decided to watch a Slaughterhouse completion video on stream, during which he reacted IcEDCave part (from 18-49%) with visible amazement. He also jokingly asks questions "Are these spikes in the dark?", whilst reacting to the hardest level.
 
 {%video%}
