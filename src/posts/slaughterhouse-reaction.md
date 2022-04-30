@@ -12,7 +12,11 @@ author: c649007
 Slaughterhouse is one of the most popular level in Geometry Dash. It has a long history and it has one of the worst-experience in any extreme demons to date.
 But then, on April 9, 2022, a big thing has been come out.
 On the 9th of April 2022, TheZinkYT, a former Geometry Dash Demon List Moderators, raided a Getting Over It streamer on Twitch named GFMBadger after the latter asked to Badger "what does Geometry Dash look like today". GFMBadger decided to watch a Slaughterhouse completion video on stream, during which he reacted IcEDCave part (from 18-49%) with visible amazement. He also jokingly asks questions "Are these spikes in the dark?", whilst reacting to the hardest level.
-https://www.youtube.com/watch?v=RZysKeM5M0c
+
+{%video%}
+<iframe width="400" height="225" src="https://www.youtube.com/watch?v=RZysKeM5M0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{%endvideo%}
+
 On April 11, the clip of GFMBadger reacting to Slaughterhouse would be re-posted by TheZinkYT himself, on his Twitter. The [tweet](https://imagizer.imageshack.com/img923/2161/iKrBmH.png) gained over 1500 likes!
 Shortly after the tweet went viral, [GFMBadger jokingly said that he will need to do a Geometry Dash stream](https://imagizer.imageshack.com/img924/5545/T24e4H.png), but he didn't get the time to play the game.
 
