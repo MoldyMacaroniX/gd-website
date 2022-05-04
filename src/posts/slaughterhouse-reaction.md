@@ -4,7 +4,6 @@ desc: "A former Geometry Dash Demon List Moderator raided this streamer and this
 image: https://imagizer.imageshack.com/v2/1600x1200q90/923/Nqif8z.png
 date: 2022-05-03
 tags:
-    - featured
     - news
 author: c649007
 ---
