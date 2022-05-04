@@ -2,7 +2,7 @@
 title: "Non-GD Streamer Reacts To Slaughterhouse"
 desc: "A former Geometry Dash Demon List Moderator raided this streamer and this happened."
 image: https://imagizer.imageshack.com/v2/1600x1200q90/923/Nqif8z.png
-date: 2022-04-13
+date: 2022-05-03
 tags:
     - featured
     - news
