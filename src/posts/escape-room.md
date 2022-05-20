@@ -1,7 +1,7 @@
 ---
 title: "I Made A Geometry Dash Escape Room"
 desc: "I made a Geometry Dash escape room and I challenge you to complete it. It takes about 1-2 hours to complete."
-image: https://media.discordapp.net/attachments/392087938239954950/944330123384070224/escape_room_png.png?width=1202&height=676
+image: https://i.ytimg.com/vi/Ri6OccFOJQg/maxresdefault.jpg
 date: 2022-03-05
 tags:
     - featured

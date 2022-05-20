@@ -73,7 +73,7 @@ First things first, this program requires **node.js**. Here is a [download tutor
 
 * The allowed use of using this tool in rated levels has yet to be publicly decided, so please keep that in mind when using this program.
 * Do not use big images. All images should be compressed down to their most basic dimensions.
-* This is tool is made for pixel art, not anything detailed.
+* This tool is made for pixel art, not anything detailed.
 * If you are worried about save file corruption, it is a good idea to backup your data prior to using this program.
 
 If you have any questions, the [GitHub repository](https://github.com/GDColon/GD-Pixel-Art) might be of use.
