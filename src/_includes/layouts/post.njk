@@ -139,6 +139,36 @@ layout: layouts/main.njk
         </div>
 
     </div>
+
+    <h1 class="title" style="margin-top: 55px;">About The Author</h1>
+    <div>
+
+        {% set myAuthor = authors | getAuthor(author) %}
+        {% for myAuthor in myAuthor %}
+        {% set featured = collections[ "featured" ] | reverse | getAuthorPosts(myAuthor.key) %}
+        {% set all = collections.posts | getAuthorPosts(myAuthor.key) %}
+        {% set points = (featured.length * 2) + (all.length * 1) %}
+        <div class="author author-big"{% if loop.last %} style="margin-bottom: 0;"{%endif%}>
+        <div class="cols">
+            <div class="author-img">
+                    <a href="/authors/{{ myAuthor.key }}/"><img src="{% if myAuthor.photo %}{{ myAuthor.photo }}{% else %}{{ site.defaultpfp }}{% endif %}" alt="{{ myAuthor.name }}"></a>
+            </div>
+            <div class="col">
+                    <span class="name"><a href="/authors/{{ myAuthor.key }}/">{{ myAuthor.name }}</a> {% if myAuthor.verified %}<span class="badge ri-checkbox-circle-fill" data-tooltip="Verified" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></span>{% endif %}{% if myAuthor.twitter %} <a href="https://twitter.com/intent/user?screen_name={{ myAuthor.twitter }}" class="follow">Follow</a></span>{% endif %}
+                    {% if myAuthor.bio %}<span class="print">{{ myAuthor.bio }}</span>{% endif %}
+                    <span class="author-links">
+                    {% if myAuthor.youtube %}<a href="https://www.youtube.com/{% if myAuthor.customyt %}c{% else %}channel{% endif %}/{{ myAuthor.youtube }}" class="ri-youtube-fill" data-tooltip="YouTube" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+                    {% if myAuthor.twitch %}<a href="https://www.twitch.tv/{{ myAuthor.twitch }}" class="ri-twitch-fill" data-tooltip="Twitch" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+                    {% if myAuthor.twitter %}<a href="https://twitter.com/{{ myAuthor.twitter }}" class="ri-twitter-fill" data-tooltip="Twitter" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+                    {% if myAuthor.discord %}<a href="https://discord.gg/{{ myAuthor.discord }}" class="ri-discord-fill" data-tooltip="Discord" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+                    {% if myAuthor.gdbrowser %}<a href="https://gdbrowser.com/u/{{ myAuthor.gdbrowser }}" class="ri-global-fill" data-tooltip="GDBrowser" data-tooltip-position="top" data-tooltip-additional-classes="tooltip"></a>{% endif %}
+                    <span style="display: flex; align-self: center; color: var(--txt-light);">· <i class="ri-pencil-ruler-2-fill" style="color: var(--primary); display: flex; align-self: center; margin: 0 5px;"></i> <!--<span id="points" style="color: var(--txt);">Loading...</span>--><span style="color: var(--txt);">{{ points }}</span></span>
+                    </span>
+            </div>
+        </div>
+        </div>
+        {% endfor %}
+    </div>
 </div>
 {% endif %}
 
