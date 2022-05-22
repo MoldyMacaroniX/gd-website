@@ -12,10 +12,10 @@ In order to be eligible for the verified badge, you must meet at least one of th
 
 * 10,000 or more subscribers on YouTube.
 * 5,000 or more followers on Twitch.
-* 5,000 or more followers on Twitter.
+* 1,000 or more followers on Twitter.
 * In-game moderator.
 * Have a level featured in the map packs or gauntlets.
-* 50 or more creator points in-game.
+* 15 or more creator points in-game.
 
 In addition, the respective platform above that meets the verified badge requirements must be involved in Geometry Dash.
 
