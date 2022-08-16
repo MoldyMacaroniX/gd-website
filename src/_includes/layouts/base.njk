@@ -20,6 +20,12 @@
     <meta name="description" content="{{ desc or site.desc }}">
     {% if date %}<meta name="date" content="{{ page.date | readableDate }}">{% endif %}
 
+    
+    {% if page404 %}
+    <!-- If 404 -->
+    <meta name="robots" content="noindex,follow">
+    {% endif %}
+
     <meta name="theme-color" content="#2D88FF">
     <link rel="icon" href="{{ site.icon }}">
 
