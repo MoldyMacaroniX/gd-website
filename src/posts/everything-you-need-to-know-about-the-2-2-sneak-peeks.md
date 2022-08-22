@@ -1,6 +1,6 @@
 ---
 title: RobTop Previewed New Geometry Dash 2.2 Keyframe System
-desc: Unlike popular belief, Geometry Dash 2.2 is not coming out on Tuesday February 22, 2022.
+desc: RobTop released a new Geometry Dash 2.2 preview, showcasing the new 2.2 keyframe system.
 image: https://img.youtube.com/vi/LyHSC7bQDQk/maxresdefault.jpg
 date: 2022-08-22
 author: moldymacaronix
